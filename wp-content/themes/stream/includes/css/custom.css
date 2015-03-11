@@ -1,0 +1,38 @@
+/*!
+ * Bootstrap v3.1.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+
+.fancy_content{
+	height: 100%;
+	display:none;
+}
+.darkbg{
+	background-color:#2d2d2d;
+	color:#fff;
+}
+.darkbg h1{
+	color:#fff;
+	margin-top:0;
+}
+.darkbg h2{
+	color:#9f9e9e;
+	font-size:18px;
+}
+
+.stars h1:before{
+	content:url('img/Star_icon.png');
+	position:relative;
+	left:-14px;
+}
+.stars h1:after{
+	content:url('img/Star_icon.png');
+	position:relative;
+	right:-14px;
+}
+
+.fancybox-title{
+	background-color:#dcdcdc;
+}

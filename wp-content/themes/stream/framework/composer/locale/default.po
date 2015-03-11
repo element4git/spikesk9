@@ -1,0 +1,2470 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Composer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-02 14:30+0100\n"
+"PO-Revision-Date: 2013-12-02 14:30+0100\n"
+"Last-Translator: Michael M <hello@wpbakery.com>\n"
+"Language-Team: WPBakery\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ./composer/.\n"
+
+#: composer/build.php:140 composer/./build.php:140
+#, php-format
+msgid ""
+"There is a new version of Visual Composer available. <a href=\"http://bit.ly/"
+"vcomposer\" target=\"_blank\">Download version <b>%s</b></a>."
+msgstr ""
+
+#: composer/build.php:290 composer/./build.php:290
+msgid "Add/remove picture"
+msgstr ""
+
+#: composer/build.php:291 composer/./build.php:291
+msgid "Finish Adding Images"
+msgstr ""
+
+#: composer/build.php:292 composer/./build.php:292
+msgid "Add Image"
+msgstr ""
+
+#: composer/build.php:293 composer/./build.php:293
+msgid "Add Images"
+msgstr ""
+
+#: composer/build.php:294 composer/build.php:341
+#: composer/settings/settings.php:70 composer/./build.php:294
+#: composer/./build.php:341 composer/./settings/settings.php:70
+msgid "Visual Composer"
+msgstr ""
+
+#: composer/build.php:295 composer/./build.php:295
+msgid "Classic editor"
+msgstr ""
+
+#: composer/build.php:296 composer/./build.php:296
+msgid "Please enter templates name"
+msgstr ""
+
+#: composer/build.php:297 composer/./build.php:297
+msgid ""
+"Confirm deleting \"{template_name}\" template, press Cancel to leave. This "
+"action cannot be undone."
+msgstr ""
+
+#: composer/build.php:298 composer/./build.php:298
+msgid "Press OK to delete section, Cancel to leave"
+msgstr ""
+
+#: composer/build.php:299 composer/./build.php:299
+msgid "Drag and drop me in the column"
+msgstr ""
+
+#: composer/build.php:300 composer/./build.php:300
+msgid "Press OK to delete \"{tab_name}\" tab, Cancel to leave"
+msgstr ""
+
+#: composer/build.php:301 composer/./build.php:301
+msgid "Slide"
+msgstr ""
+
+#: composer/build.php:302 config/map.php:960 config/map.php:969
+#: composer/./build.php:302
+msgid "Tab"
+msgstr ""
+
+#: composer/build.php:303 composer/./build.php:303
+msgid "Please enter new tab title"
+msgstr ""
+
+#: composer/build.php:304 composer/./build.php:304
+msgid "Press OK to delete \"{tab_name}\" section, Cancel to leave"
+msgstr ""
+
+#: composer/build.php:305 config/map.php:338 composer/./build.php:305
+msgid "Section"
+msgstr ""
+
+#: composer/build.php:306 composer/./build.php:306
+msgid "Please enter new section title"
+msgstr ""
+
+#: composer/build.php:307 composer/./build.php:307
+msgid "Error. Please try again."
+msgstr ""
+
+#: composer/build.php:308 composer/./build.php:308
+msgid ""
+"If you close this window all shortcode settings will be lost. Close this "
+"window?"
+msgstr ""
+
+#: composer/build.php:309 composer/./build.php:309
+msgid "Select element type"
+msgstr ""
+
+#: composer/build.php:310 composer/./build.php:310
+msgid "Media gallery"
+msgstr ""
+
+#: composer/build.php:311 composer/./build.php:311
+msgid "Element settings"
+msgstr ""
+
+#: composer/build.php:312 composer/./build.php:312
+msgid "Add tab"
+msgstr ""
+
+#: composer/build.php:313 composer/./build.php:313
+msgid "Are you sure you want to convert to new version?"
+msgstr ""
+
+#: composer/build.php:314 composer/lib/layouts.php:205
+#: composer/./build.php:314 composer/./lib/layouts.php:205
+msgid "Loading..."
+msgstr ""
+
+#: composer/build.php:316 composer/./build.php:316
+msgid "Set Image"
+msgstr ""
+
+#: composer/build.php:317 composer/./build.php:317
+msgid "Are you sure taht you want to remove all your data?"
+msgstr ""
+
+#: composer/lib/helpers.php:16 composer/./lib/helpers.php:16
+msgid "Wrong wpb_map object. Base attribute is required"
+msgstr ""
+
+#: composer/lib/helpers.php:271 composer/./lib/helpers.php:271
+msgid "Added"
+msgstr ""
+
+#: composer/lib/layouts.php:14 composer/./lib/layouts.php:14
+msgid "Wrong layout params"
+msgstr ""
+
+#: composer/lib/layouts.php:92 composer/./lib/layouts.php:92
+msgid "Save current page as a Template"
+msgstr ""
+
+#: composer/lib/layouts.php:94 composer/./lib/layouts.php:94
+msgid "Load Template"
+msgstr ""
+
+#: composer/lib/layouts.php:107 composer/./lib/layouts.php:107
+msgid "No custom templates yet."
+msgstr ""
+
+#: composer/lib/layouts.php:150 composer/./lib/layouts.php:150
+msgid "Show all"
+msgstr ""
+
+#: composer/lib/layouts.php:165 composer/./lib/layouts.php:165
+msgid "Other"
+msgstr ""
+
+#: composer/lib/layouts.php:177 composer/./lib/layouts.php:177
+msgid "Select Content Element"
+msgstr ""
+
+#: composer/lib/layouts.php:178 composer/./lib/layouts.php:178
+msgid "Search by element name"
+msgstr ""
+
+#: composer/lib/layouts.php:193 composer/./lib/layouts.php:193
+msgid "Close"
+msgstr ""
+
+#: composer/lib/layouts.php:209 composer/lib/shortcodes.php:396
+#: composer/./lib/layouts.php:209 composer/./lib/shortcodes.php:396
+msgid "Save"
+msgstr ""
+
+#: composer/lib/layouts.php:210 composer/./lib/layouts.php:210
+msgid "Cancel"
+msgstr ""
+
+#: composer/lib/layouts.php:254 composer/./lib/layouts.php:254
+msgid "Add element"
+msgstr ""
+
+#: composer/lib/layouts.php:260 composer/./lib/layouts.php:260
+msgid "Add Section"
+msgstr ""
+
+#: composer/lib/layouts.php:266 composer/./lib/layouts.php:266
+msgid "Templates"
+msgstr ""
+
+#: composer/lib/layouts.php:274 composer/./lib/layouts.php:274
+msgid "Update"
+msgstr ""
+
+#: composer/lib/layouts.php:308 composer/./lib/layouts.php:308
+msgid ""
+"Your page layout was created with previous Visual Composer version. Before "
+"converting your layout to the new version, make sure to <a target=\"_blank\" "
+"href=\"http://kb.wpbakery.com/index.php?"
+"title=Update_Visual_Composer_from_3.4_to_3.5\">read this page</a>."
+msgstr ""
+
+#: composer/lib/layouts.php:310 composer/./lib/layouts.php:310
+msgid "Convert to new version"
+msgstr ""
+
+#: composer/lib/layouts.php:316 composer/lib/layouts.php:353
+#: composer/./lib/layouts.php:316 composer/./lib/layouts.php:353
+msgid "Loading, please wait..."
+msgstr ""
+
+#: composer/lib/layouts.php:321 composer/./lib/layouts.php:321
+msgid "No content yet! You should add some..."
+msgstr ""
+
+#: composer/lib/layouts.php:325 composer/./lib/layouts.php:325
+msgid ""
+"This is a visual preview of your page. Currently, you don't have any content "
+"elements. Click or drag the button <a href='#' class='add-element-to-"
+"layout'><i class='icon'></i> Add element</a> on the top to add content "
+"elements on your page. Alternatively add <a href='#' class='add-text-block-"
+"to-content' parent-container='#visual_composer_content'><i class='icon'></i> "
+"Text block</a> with single click."
+msgstr ""
+
+#: composer/lib/layouts.php:330 composer/./lib/layouts.php:330
+msgid ""
+"Click the pencil icon on the content elements to change their properties."
+msgstr ""
+
+#: composer/lib/layouts.php:354 composer/./lib/layouts.php:354
+msgid "Crunching..."
+msgstr ""
+
+#: composer/lib/mapper.php:54 composer/lib/mapper.php:139
+#: composer/./lib/mapper.php:54 composer/./lib/mapper.php:139
+#, php-format
+msgid "Wrong name for shortcode:%s. Name required"
+msgstr ""
+
+#: composer/lib/mapper.php:56 composer/./lib/mapper.php:56
+#, php-format
+msgid "Wrong base for shortcode:%s. Base required"
+msgstr ""
+
+#: composer/lib/mapper.php:141 composer/./lib/mapper.php:141
+#, php-format
+msgid "Wrong attribute for '%s' shortcode. Attribute 'param_name' required"
+msgstr ""
+
+#: composer/lib/shortcodes.php:278 composer/./lib/shortcodes.php:278
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: composer/lib/shortcodes.php:279 composer/./lib/shortcodes.php:279
+#, php-format
+msgid "Clone %s"
+msgstr ""
+
+#: composer/lib/shortcodes.php:279 composer/./lib/shortcodes.php:279
+#, php-format
+msgid "Delete %s"
+msgstr ""
+
+#: composer/lib/shortcodes.php:382 composer/lib/shortcodes.php:607
+#: composer/./lib/shortcodes.php:382 composer/./lib/shortcodes.php:607
+msgid "Edit"
+msgstr ""
+
+#: composer/lib/shortcodes.php:525 composer/./lib/shortcodes.php:525
+msgid "Add images"
+msgstr ""
+
+#: composer/lib/shortcodes.php:540 composer/lib/shortcodes/lightbox.php:92
+#: composer/lib/shortcodes/lightbox.php:181
+#: composer/lib/shortcodes/lightbox.php:279
+#: composer/lib/shortcodes/single_image.php:89
+#: composer/./lib/shortcodes.php:540 composer/./lib/shortcodes/lightbox.php:92
+#: composer/./lib/shortcodes/lightbox.php:181
+#: composer/./lib/shortcodes/lightbox.php:279
+#: composer/./lib/shortcodes/single_image.php:89
+msgid "Add image"
+msgstr ""
+
+#: composer/lib/shortcodes/alert_box.php:10
+#: composer/./lib/shortcodes/alert_box.php:10
+msgid "Standard"
+msgstr ""
+
+#: composer/lib/shortcodes/alert_box.php:11
+#: composer/./lib/shortcodes/alert_box.php:11
+msgid "Warning"
+msgstr ""
+
+#: composer/lib/shortcodes/alert_box.php:12
+#: composer/./lib/shortcodes/alert_box.php:12
+msgid "Error"
+msgstr ""
+
+#: composer/lib/shortcodes/alert_box.php:13
+#: composer/./lib/shortcodes/alert_box.php:13
+msgid "Info"
+msgstr ""
+
+#: composer/lib/shortcodes/alert_box.php:14
+#: composer/./lib/shortcodes/alert_box.php:14
+msgid "Success"
+msgstr ""
+
+#: composer/lib/shortcodes/column.php:19
+#: composer/./lib/shortcodes/column.php:19
+msgid "Append to this column"
+msgstr ""
+
+#: composer/lib/shortcodes/column.php:20
+#: composer/./lib/shortcodes/column.php:20
+msgid "Prepend to this column"
+msgstr ""
+
+#: composer/lib/shortcodes/column.php:23
+#: composer/./lib/shortcodes/column.php:23
+msgid "Edit this column"
+msgstr ""
+
+#: composer/lib/shortcodes/column.php:173 config/map.php:605
+#: composer/./lib/shortcodes/column.php:173
+msgid "Column"
+msgstr ""
+
+#: composer/lib/shortcodes/column.php:185 config/map.php:596
+#: config/map.php:612 config/map.php:736 config/map.php:769 config/map.php:820
+#: config/map.php:845 config/map.php:887 config/map.php:921 config/map.php:951
+#: config/map.php:981 config/map.php:1010 config/map.php:1091
+#: config/map.php:1153 config/map.php:1213 config/map.php:1275
+#: config/map.php:1350 config/map.php:1422 config/map.php:1497
+#: config/map.php:1582 config/map.php:1639 config/map.php:1719
+#: config/map.php:1754 config/map.php:1873 config/map.php:1958
+#: config/map.php:2006 config/map.php:2043 config/map.php:2076
+#: config/map.php:2126 config/map.php:2458 config/map.php:2555
+#: config/map.php:2692 composer/./lib/shortcodes/column.php:185
+msgid "Extra class name"
+msgstr ""
+
+#: composer/lib/shortcodes/column.php:188 config/map.php:357
+#: config/map.php:576 config/map.php:598 config/map.php:614 config/map.php:738
+#: config/map.php:771 config/map.php:822 config/map.php:847 config/map.php:889
+#: config/map.php:923 config/map.php:953 config/map.php:983
+#: config/map.php:1012 config/map.php:1093 config/map.php:1155
+#: config/map.php:1215 config/map.php:1277 config/map.php:1352
+#: config/map.php:1424 config/map.php:1499 config/map.php:1584
+#: config/map.php:1641 config/map.php:1721 config/map.php:1756
+#: config/map.php:1875 config/map.php:1960 config/map.php:2008
+#: config/map.php:2045 config/map.php:2078 config/map.php:2128
+#: config/map.php:2460 config/map.php:2557 config/map.php:2694
+#: composer/./lib/shortcodes/column.php:188
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: composer/lib/shortcodes/latest_posts.php:70
+#: composer/./lib/shortcodes/latest_posts.php:70
+msgid "No Comments"
+msgstr ""
+
+#: composer/lib/shortcodes/latest_posts.php:72
+#: composer/./lib/shortcodes/latest_posts.php:72
+msgid " Comments"
+msgstr ""
+
+#: composer/lib/shortcodes/latest_posts.php:74
+#: composer/./lib/shortcodes/latest_posts.php:74
+msgid "1 Comment"
+msgstr ""
+
+#: composer/lib/shortcodes/row.php:176 composer/./lib/shortcodes/row.php:176
+msgid "Drag row to reorder"
+msgstr ""
+
+#: composer/lib/shortcodes/row.php:177 composer/./lib/shortcodes/row.php:177
+msgid "Delete this row"
+msgstr ""
+
+#: composer/lib/shortcodes/row.php:178 composer/./lib/shortcodes/row.php:178
+msgid "Edit this row"
+msgstr ""
+
+#: composer/lib/shortcodes/row.php:179 composer/./lib/shortcodes/row.php:179
+msgid "Hide this row"
+msgstr ""
+
+#: composer/lib/shortcodes/row.php:180 composer/./lib/shortcodes/row.php:180
+msgid "Clone this row"
+msgstr ""
+
+#: composer/settings/settings.php:21 composer/./settings/settings.php:21
+msgid "General Settings"
+msgstr ""
+
+#: composer/settings/settings.php:39 composer/./settings/settings.php:39
+msgid "Main accent color"
+msgstr ""
+
+#: composer/settings/settings.php:40 composer/./settings/settings.php:40
+msgid "Hover color"
+msgstr ""
+
+#: composer/settings/settings.php:41 composer/./settings/settings.php:41
+msgid "Call to action background color"
+msgstr ""
+
+#: composer/settings/settings.php:43 composer/./settings/settings.php:43
+msgid "Google maps background color"
+msgstr ""
+
+#: composer/settings/settings.php:44 composer/./settings/settings.php:44
+msgid "Post slider caption background color"
+msgstr ""
+
+#: composer/settings/settings.php:45 composer/./settings/settings.php:45
+msgid "Progress bar background color"
+msgstr ""
+
+#: composer/settings/settings.php:46 composer/./settings/settings.php:46
+msgid "Separator border color"
+msgstr ""
+
+#: composer/settings/settings.php:47 composer/./settings/settings.php:47
+msgid "Tabs navigation background color"
+msgstr ""
+
+#: composer/settings/settings.php:48 composer/./settings/settings.php:48
+msgid "Active tab background color"
+msgstr ""
+
+#: composer/settings/settings.php:69 composer/./settings/settings.php:69
+msgid "Visual Composer Settings"
+msgstr ""
+
+#: composer/settings/settings.php:92 composer/settings/settings.php:94
+#: composer/./settings/settings.php:92 composer/./settings/settings.php:94
+msgid "Content types"
+msgstr ""
+
+#: composer/settings/settings.php:96 composer/./settings/settings.php:96
+msgid "User groups access rules"
+msgstr ""
+
+#: composer/settings/settings.php:97 composer/./settings/settings.php:97
+msgid "Disable responsive content elements"
+msgstr ""
+
+#: composer/settings/settings.php:104 composer/./settings/settings.php:104
+msgid "Use custom design options"
+msgstr ""
+
+#: composer/settings/settings.php:118 composer/./settings/settings.php:118
+msgid "Elements bottom margin"
+msgstr ""
+
+#: composer/settings/settings.php:122 composer/./settings/settings.php:122
+msgid "Grid gutter width"
+msgstr ""
+
+#: composer/settings/settings.php:126 composer/./settings/settings.php:126
+msgid "Mobile screen width"
+msgstr ""
+
+#: composer/settings/settings.php:154 composer/./settings/settings.php:154
+msgid "Paste your CSS code"
+msgstr ""
+
+#: composer/settings/settings.php:210 composer/settings/settings.php:211
+#: composer/./settings/settings.php:210 composer/./settings/settings.php:211
+msgid "Are you sure you want to reset to defaults?"
+msgstr ""
+
+#: composer/settings/settings.php:224 composer/./settings/settings.php:224
+msgid "Show Visual Composer & default editor"
+msgstr ""
+
+#: composer/settings/settings.php:225 composer/./settings/settings.php:225
+msgid "Show only Visual Composer"
+msgstr ""
+
+#: composer/settings/settings.php:226 composer/./settings/settings.php:226
+msgid "Don't allow to use Visual Composer"
+msgstr ""
+
+#: composer/settings/settings.php:245 composer/./settings/settings.php:245
+msgid "Visual Composer access"
+msgstr ""
+
+#: composer/settings/settings.php:253 composer/./settings/settings.php:253
+msgid "Enabled shortcodes"
+msgstr ""
+
+#: composer/settings/settings.php:267 composer/./settings/settings.php:267
+msgid "Select All"
+msgstr ""
+
+#: composer/settings/settings.php:267 composer/./settings/settings.php:267
+msgid "Select none"
+msgstr ""
+
+#: composer/settings/settings.php:295 composer/settings/settings.php:316
+#: composer/./settings/settings.php:295 composer/./settings/settings.php:316
+msgid ""
+"Select for which content types Visual Composer should be available during "
+"post creation/editing."
+msgstr ""
+
+#: composer/settings/settings.php:322 composer/./settings/settings.php:322
+msgid ""
+"If you want to add some custom CSS code to the plugin and don't want to "
+"modify any files, then it's a good place to enter your code at this field."
+msgstr ""
+
+#: composer/settings/settings.php:332 composer/./settings/settings.php:332
+msgid "Disable"
+msgstr ""
+
+#: composer/settings/settings.php:334 composer/./settings/settings.php:334
+msgid ""
+"Check this checkbox to prevent content elements from \"stacking\" one on top "
+"other (on small media screens, eg. mobile)."
+msgstr ""
+
+#: composer/settings/settings.php:343 composer/./settings/settings.php:343
+msgid ""
+"To change class name for the row element, enter it here. By default vc_row "
+"is used."
+msgstr ""
+
+#: composer/settings/settings.php:360 composer/./settings/settings.php:360
+msgid ""
+"To change class names for the columns elements, enter them here. By default "
+"vc_spanX are used, where X number from 1 to 12."
+msgstr ""
+
+#: composer/settings/settings.php:371 composer/./settings/settings.php:371
+msgid "Enable"
+msgstr ""
+
+#: composer/settings/settings.php:373 composer/./settings/settings.php:373
+msgid ""
+"Enable the use of custom design options for your site. When checked, custom "
+"css file will be used."
+msgstr ""
+
+#: composer/settings/settings.php:385 composer/./settings/settings.php:385
+msgid ""
+"To change default vertical spacing between content elements, enter new value "
+"here. Example: 20px"
+msgstr ""
+
+#: composer/settings/settings.php:390 composer/./settings/settings.php:390
+msgid ""
+"To change default horizontal spacing between columns, enter new value in "
+"percents here."
+msgstr ""
+
+#: composer/settings/settings.php:396 composer/./settings/settings.php:396
+msgid ""
+"By default content elements \"stack\" one on top other when screen size is "
+"smaller then 480px. Here you can change that value if needed."
+msgstr ""
+
+#: composer/settings/settings.php:411 composer/./settings/settings.php:411
+msgid ""
+"Here you can tweak default Visual Composer content elements visual "
+"appearance. By default Visual Composer is using neutral light-grey theme. "
+"Changing \"Main accent color\" will affect all content elements if no "
+"specific \"content block\" related color is set."
+msgstr ""
+
+#: composer/settings/settings.php:494 composer/./settings/settings.php:494
+msgid "Invalid Margin value."
+msgstr ""
+
+#: composer/settings/settings.php:499 composer/./settings/settings.php:499
+msgid "Invalid Gutter value."
+msgstr ""
+
+#: composer/settings/settings.php:505 composer/./settings/settings.php:505
+msgid "Invalid \"Responsive max\" value."
+msgstr ""
+
+#: composer/settings/settings.php:536 composer/./settings/settings.php:536
+#, php-format
+msgid ""
+"Visual Composer: Your css class names settings are deprecated. <a href=\"%s"
+"\">Click here to resolve</a>."
+msgstr ""
+
+#: composer/settings/settings.php:561 composer/./settings/settings.php:561
+msgid "WPBakery Visual Composer Settings"
+msgstr ""
+
+#: composer/settings/settings.php:576 composer/./settings/settings.php:576
+msgid ""
+"<strong>Deprecated:</strong> To override class names that are applied to "
+"Visual Composer content elements you should use WordPress add_filter"
+"('vc_shortcodes_css_class') function. <a class='vc_show_example'>See "
+"Example</a>."
+msgstr ""
+
+#: composer/settings/settings.php:584 composer/./settings/settings.php:584
+msgid ""
+"You have used element class names settings to replace row and column css "
+"classes."
+msgstr ""
+
+#: composer/settings/settings.php:585 composer/./settings/settings.php:585
+msgid ""
+"Below is code snippet which you should add to your functions.php file in "
+"your theme, to replace row and column classes with custom classes saved by "
+"you earlier."
+msgstr ""
+
+#: composer/settings/settings.php:659 composer/settings/settings.php:668
+#: composer/./settings/settings.php:659 composer/./settings/settings.php:668
+msgid "Save Changes"
+msgstr ""
+
+#: composer/settings/settings.php:659 composer/./settings/settings.php:659
+msgid "Remove all"
+msgstr ""
+
+#: composer/settings/settings.php:671 composer/./settings/settings.php:671
+msgid "Restore to defaults"
+msgstr ""
+
+#: composer/settings/settings.php:786 composer/./settings/settings.php:786
+msgid ""
+"Something went wrong: js_composer_front_custom.css could not be created."
+msgstr ""
+
+#: composer/settings/settings.php:788 composer/./settings/settings.php:788
+msgid "js_composer_front_custom.css could not be created. Connection error."
+msgstr ""
+
+#: composer/settings/settings.php:790 composer/./settings/settings.php:790
+#, php-format
+msgid ""
+"js_composer_front_custom.css could not be created. Cannot write custom css "
+"to \"%s\"."
+msgstr ""
+
+#: composer/settings/settings.php:792 composer/./settings/settings.php:792
+msgid "js_composer_front_custom.css could not be created. Problem with access."
+msgstr ""
+
+#: composer/settings/settings.php:821 composer/./settings/settings.php:821
+msgid "Something went wrong: custom.css could not be created."
+msgstr ""
+
+#: composer/settings/settings.php:823 composer/./settings/settings.php:823
+msgid "custom.css could not be created. Connection error."
+msgstr ""
+
+#: composer/settings/settings.php:825 composer/./settings/settings.php:825
+msgid "custom.css could not be created. Cannot write custom css to \""
+msgstr ""
+
+#: composer/settings/settings.php:827 composer/./settings/settings.php:827
+msgid "custom.css could not be created. Problem with access."
+msgstr ""
+
+#: config/map.php:11
+msgid "Same window"
+msgstr ""
+
+#: config/map.php:11
+msgid "New window"
+msgstr ""
+
+#: config/map.php:291
+msgid "Animation?"
+msgstr ""
+
+#: config/map.php:293 config/map.php:1062 config/map.php:1819
+#: config/map.php:1904
+msgid "No"
+msgstr ""
+
+#: config/map.php:293 config/map.php:1062 config/map.php:1819
+#: config/map.php:1904
+msgid "Yes"
+msgstr ""
+
+#: config/map.php:295
+msgid "Enable or Disable animation on item."
+msgstr ""
+
+#: config/map.php:301
+msgid "Animation Effects"
+msgstr ""
+
+#: config/map.php:303
+msgid "Fade In"
+msgstr ""
+
+#: config/map.php:303
+msgid "Move Left"
+msgstr ""
+
+#: config/map.php:303
+msgid "Move Right"
+msgstr ""
+
+#: config/map.php:303
+msgid "Move Up"
+msgstr ""
+
+#: config/map.php:303
+msgid "Scale Up"
+msgstr ""
+
+#: config/map.php:303
+msgid "Little Bounce"
+msgstr ""
+
+#: config/map.php:305
+msgid "Select your animation."
+msgstr ""
+
+#: config/map.php:312
+msgid "Animation Delay"
+msgstr ""
+
+#: config/map.php:315
+msgid ""
+"<strong>Optional</strong> If you want you can insert a delay for animation. "
+"For example write 100 = 0.1 seconds"
+msgstr ""
+
+#: config/map.php:343 config/map.php:590
+msgid "Layout"
+msgstr ""
+
+#: config/map.php:348
+msgid "Extra ID name"
+msgstr ""
+
+#: config/map.php:350
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a ID and then refer to it in your css file."
+msgstr ""
+
+#: config/map.php:355
+msgid "Extra Section Class name"
+msgstr ""
+
+#: config/map.php:362
+msgid "Section Mode"
+msgstr ""
+
+#: config/map.php:364 config/map.php:373
+msgid "Default"
+msgstr ""
+
+#: config/map.php:364
+msgid "Full Width"
+msgstr ""
+
+#: config/map.php:365
+msgid ""
+"Choose Layout Mode. Default 1170px Container. Full Width is a 100% Container."
+msgstr ""
+
+#: config/map.php:371
+msgid "Background Mode"
+msgstr ""
+
+#: config/map.php:373
+msgid "Custom Image"
+msgstr ""
+
+#: config/map.php:373 config/map.php:662 config/map.php:1314
+#: config/map.php:1604 config/map.php:2512
+msgid "Custom Color"
+msgstr ""
+
+#: config/map.php:373
+msgid "Custom Video"
+msgstr ""
+
+#: config/map.php:374
+msgid "Choose Background Mode."
+msgstr ""
+
+#: config/map.php:381 config/map.php:1032 config/map.php:1109
+#: config/map.php:1171
+msgid "Image"
+msgstr ""
+
+#: config/map.php:384 config/map.php:507 config/map.php:1035
+#: config/map.php:1112 config/map.php:1174
+msgid "Select image from media library."
+msgstr ""
+
+#: config/map.php:390
+msgid "Background Color Image"
+msgstr ""
+
+#: config/map.php:392
+msgid "Choose a background color for your transparent image block."
+msgstr ""
+
+#: config/map.php:398
+msgid "Background Image Position"
+msgstr ""
+
+#: config/map.php:402
+msgid "Top Left"
+msgstr ""
+
+#: config/map.php:403
+msgid "Top Center"
+msgstr ""
+
+#: config/map.php:404
+msgid "Top Right"
+msgstr ""
+
+#: config/map.php:405
+msgid "Bottom Left"
+msgstr ""
+
+#: config/map.php:406
+msgid "Bottom Center"
+msgstr ""
+
+#: config/map.php:407
+msgid "Bottom Right"
+msgstr ""
+
+#: config/map.php:408
+msgid "Center Left"
+msgstr ""
+
+#: config/map.php:409
+msgid "Center Center"
+msgstr ""
+
+#: config/map.php:410
+msgid "Center Right"
+msgstr ""
+
+#: config/map.php:417
+msgid "Background Image Repeat"
+msgstr ""
+
+#: config/map.php:421
+msgid "No Repeat"
+msgstr ""
+
+#: config/map.php:422
+msgid "Repeat"
+msgstr ""
+
+#: config/map.php:423
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: config/map.php:424
+msgid "Repeat vertically"
+msgstr ""
+
+#: config/map.php:425
+msgid "Stretch to fit"
+msgstr ""
+
+#: config/map.php:432
+msgid "Background Attachment"
+msgstr ""
+
+#: config/map.php:436
+msgid "Scroll"
+msgstr ""
+
+#: config/map.php:437
+msgid "Fixed"
+msgstr ""
+
+#: config/map.php:444
+msgid "Overlay Mask"
+msgstr ""
+
+#: config/map.php:446
+msgid "No Overlay Mask"
+msgstr ""
+
+#: config/map.php:446
+msgid "Yes, Overlay Mask"
+msgstr ""
+
+#: config/map.php:447
+msgid "Enable or Disable the custom options for overlay section."
+msgstr ""
+
+#: config/map.php:453
+msgid "Background Color Overlay Mask"
+msgstr ""
+
+#: config/map.php:455
+msgid ""
+"Choose a background color overlay for your title block. Only if Overlay Mask "
+"is enable."
+msgstr ""
+
+#: config/map.php:461
+msgid "Background Opacity Overlay Mask"
+msgstr ""
+
+#: config/map.php:463
+msgid ""
+"Enter a number 0 - 1 for your background color opacity. Default 0.70. Only "
+"if Overlay Mask is enable."
+msgstr ""
+
+#: config/map.php:471
+msgid "Background Color"
+msgstr ""
+
+#: config/map.php:473
+msgid "Select a custom background color."
+msgstr ""
+
+#: config/map.php:480
+msgid "WEBM File URL"
+msgstr ""
+
+#: config/map.php:482
+msgid "Upload a WEBM File."
+msgstr ""
+
+#: config/map.php:488
+msgid "M4V File URL"
+msgstr ""
+
+#: config/map.php:490
+msgid "Upload a M4V File."
+msgstr ""
+
+#: config/map.php:496
+msgid "OGV File URL"
+msgstr ""
+
+#: config/map.php:498
+msgid "Upload a OGV File."
+msgstr ""
+
+#: config/map.php:504
+msgid "Video Preview Image"
+msgstr ""
+
+#: config/map.php:513
+msgid "Video Overlay?"
+msgstr ""
+
+#: config/map.php:515
+msgid "Use transparent overlay over video?"
+msgstr ""
+
+#: config/map.php:521
+msgid "Video Overlay Color"
+msgstr ""
+
+#: config/map.php:523
+msgid "Select a custom color for overlay block."
+msgstr ""
+
+#: config/map.php:529
+msgid "Video Overlay Opacity"
+msgstr ""
+
+#: config/map.php:531
+msgid ""
+"Enter a number 0 - 1 for your overlay color opacity. Default 0.70. Only if "
+"Video Overlay Mask is enable."
+msgstr ""
+
+#: config/map.php:538
+msgid "Section Padding"
+msgstr ""
+
+#: config/map.php:540
+msgid "No Padding"
+msgstr ""
+
+#: config/map.php:540
+msgid "Small Padding"
+msgstr ""
+
+#: config/map.php:540
+msgid "Default Padding"
+msgstr ""
+
+#: config/map.php:540
+msgid "Large Padding"
+msgstr ""
+
+#: config/map.php:540
+msgid "Custom Padding"
+msgstr ""
+
+#: config/map.php:541
+msgid "Define the sections top and bottom padding."
+msgstr ""
+
+#: config/map.php:547
+msgid "Padding Top"
+msgstr ""
+
+#: config/map.php:549
+msgid ""
+"Padding Top value in pixel. Enter only number value. Default value is 70."
+msgstr ""
+
+#: config/map.php:556 config/map.php:723
+msgid "Padding Bottom"
+msgstr ""
+
+#: config/map.php:558
+msgid ""
+"Padding Bottom value in pixel. Enter only number value. Default value is 70."
+msgstr ""
+
+#: config/map.php:565
+msgid "Section Shadow"
+msgstr ""
+
+#: config/map.php:567
+msgid "No Shadow"
+msgstr ""
+
+#: config/map.php:567
+msgid "Display Shadow"
+msgstr ""
+
+#: config/map.php:568
+msgid "Display a small styling shadow at the top and bottom of the section."
+msgstr ""
+
+#: config/map.php:574
+msgid "Extra Row Class name"
+msgstr ""
+
+#: config/map.php:587
+msgid "Row Inner"
+msgstr ""
+
+#: config/map.php:625
+msgid "Special Heading"
+msgstr ""
+
+#: config/map.php:629 config/map.php:752 config/map.php:786 config/map.php:833
+#: config/map.php:862 config/map.php:903 config/map.php:933 config/map.php:963
+#: config/map.php:993 config/map.php:1027 config/map.php:1104
+#: config/map.php:1166 config/map.php:1226 config/map.php:1291
+#: config/map.php:1365 config/map.php:1437 config/map.php:1513
+#: config/map.php:1597 config/map.php:1655 config/map.php:1735
+#: config/map.php:1769 config/map.php:1888 config/map.php:1973
+#: config/map.php:2021 config/map.php:2058 config/map.php:2091
+#: config/map.php:2141 config/map.php:2473 config/map.php:2570
+#: config/map.php:2588 config/map.php:2630 config/map.php:2672
+msgid "Content"
+msgstr ""
+
+#: config/map.php:635 config/map.php:758 config/map.php:876
+#: config/map.php:1571 config/map.php:1708
+msgid "Text"
+msgstr ""
+
+#: config/map.php:637
+msgid "I am Heading Text."
+msgstr ""
+
+#: config/map.php:638
+msgid "Insert your text. HTML is allowed."
+msgstr ""
+
+#: config/map.php:643
+msgid "Heading Type"
+msgstr ""
+
+#: config/map.php:647
+msgid "H1"
+msgstr ""
+
+#: config/map.php:648
+msgid "H2"
+msgstr ""
+
+#: config/map.php:649
+msgid "H3"
+msgstr ""
+
+#: config/map.php:650
+msgid "H4"
+msgstr ""
+
+#: config/map.php:651
+msgid "H5"
+msgstr ""
+
+#: config/map.php:652
+msgid "H6"
+msgstr ""
+
+#: config/map.php:654
+msgid "Select which kind of heading you want to display."
+msgstr ""
+
+#: config/map.php:660
+msgid "Font Color"
+msgstr ""
+
+#: config/map.php:662 config/map.php:1314 config/map.php:1604
+#: config/map.php:2512
+msgid "Theme Color Default"
+msgstr ""
+
+#: config/map.php:663
+msgid "Choose a color for your heading text."
+msgstr ""
+
+#: config/map.php:669
+msgid "Heading Custom Color"
+msgstr ""
+
+#: config/map.php:671
+msgid "Select custom color for heading text."
+msgstr ""
+
+#: config/map.php:677
+msgid "Font Heading Size"
+msgstr ""
+
+#: config/map.php:679
+msgid "Theme Size Default"
+msgstr ""
+
+#: config/map.php:679
+msgid "Custom Size"
+msgstr ""
+
+#: config/map.php:680
+msgid "Choose a size for your heading text."
+msgstr ""
+
+#: config/map.php:686
+msgid "Heading Custom Size"
+msgstr ""
+
+#: config/map.php:688
+msgid "Font Size in pixel. Enter only number value."
+msgstr ""
+
+#: config/map.php:696
+msgid "Heading Style"
+msgstr ""
+
+#: config/map.php:700
+msgid "Default Style"
+msgstr ""
+
+#: config/map.php:701
+msgid "Italic Style"
+msgstr ""
+
+#: config/map.php:703
+msgid "Select a heading style."
+msgstr ""
+
+#: config/map.php:709
+msgid "Heading Align"
+msgstr ""
+
+#: config/map.php:713
+msgid "Align Left"
+msgstr ""
+
+#: config/map.php:714
+msgid "Align Center"
+msgstr ""
+
+#: config/map.php:715
+msgid "Align Right"
+msgstr ""
+
+#: config/map.php:717
+msgid "Select a heading align."
+msgstr ""
+
+#: config/map.php:725
+msgid "Bottom Padding in pixel. Enter only number value. Default value is 30."
+msgstr ""
+
+#: config/map.php:748
+msgid "Text Block"
+msgstr ""
+
+#: config/map.php:760 config/map.php:878
+msgid "I am text block. Click edit button to change this text."
+msgstr ""
+
+#: config/map.php:783
+msgid "Divider"
+msgstr ""
+
+#: config/map.php:791
+msgid "Divider Style"
+msgstr ""
+
+#: config/map.php:793
+msgid "Normal"
+msgstr ""
+
+#: config/map.php:793
+msgid "Short"
+msgstr ""
+
+#: config/map.php:795
+msgid "Choose between the two available divider styles."
+msgstr ""
+
+#: config/map.php:800
+msgid "Margin Top Value"
+msgstr ""
+
+#: config/map.php:802
+msgid ""
+"Margin Top Value in pixel. Enter only number value. Default value is 30."
+msgstr ""
+
+#: config/map.php:808
+msgid "Margin Bottom Value"
+msgstr ""
+
+#: config/map.php:810
+msgid ""
+"Margin Bottom Value in pixel. Enter only number value. Default value is 36."
+msgstr ""
+
+#: config/map.php:830
+msgid "Blank Divider"
+msgstr ""
+
+#: config/map.php:837
+msgid "Height Value"
+msgstr ""
+
+#: config/map.php:839
+msgid "Height Value in pixel. Enter only number value. Default value is 20."
+msgstr ""
+
+#: config/map.php:859
+msgid "Alert Box"
+msgstr ""
+
+#: config/map.php:867
+msgid "Type"
+msgstr ""
+
+#: config/map.php:870
+msgid "Select your Alert Box."
+msgstr ""
+
+#: config/map.php:900 config/map.php:909
+msgid "Accordion"
+msgstr ""
+
+#: config/map.php:911
+msgid ""
+"Click on the <strong>AZ Shortcode Button</strong> and select "
+"<strong>Accordion Section Shortcode</strong>."
+msgstr ""
+
+#: config/map.php:930 config/map.php:939
+msgid "Toggle"
+msgstr ""
+
+#: config/map.php:941
+msgid ""
+"Click on the <strong>AZ Shortcode Button</strong> and select <strong>Toggle "
+"Section Shortcode</strong>."
+msgstr ""
+
+#: config/map.php:971
+msgid ""
+"Click on the <strong>AZ Shortcode Button</strong> and select <strong>Tab "
+"Section Shortcode</strong>."
+msgstr ""
+
+#: config/map.php:990 config/map.php:999
+msgid "Testimonial"
+msgstr ""
+
+#: config/map.php:1001
+msgid ""
+"Click on the <strong>AZ Shortcode Button</strong> and select "
+"<strong>Testimonial Section Shortcode</strong>. Don't add more one "
+"testimonial slider shortcode to the same page."
+msgstr ""
+
+#: config/map.php:1024
+msgid "Single Image"
+msgstr ""
+
+#: config/map.php:1040
+msgid "Image Mode"
+msgstr ""
+
+#: config/map.php:1042
+msgid "No Responsive"
+msgstr ""
+
+#: config/map.php:1042
+msgid "Responsive"
+msgstr ""
+
+#: config/map.php:1042
+msgid "Full Responsive"
+msgstr ""
+
+#: config/map.php:1043 config/map.php:1053 config/map.php:1063
+msgid "Select mode of your image."
+msgstr ""
+
+#: config/map.php:1050
+msgid "Image Alignment"
+msgstr ""
+
+#: config/map.php:1052 config/map.php:1678
+msgid "Left"
+msgstr ""
+
+#: config/map.php:1052
+msgid "Center"
+msgstr ""
+
+#: config/map.php:1052 config/map.php:1680
+msgid "Right"
+msgstr ""
+
+#: config/map.php:1060
+msgid "Image Link"
+msgstr ""
+
+#: config/map.php:1070 config/map.php:1188
+msgid "Link URL"
+msgstr ""
+
+#: config/map.php:1072
+msgid "Where should your image link to?"
+msgstr ""
+
+#: config/map.php:1079
+msgid "Link Target"
+msgstr ""
+
+#: config/map.php:1101
+msgid "LightBox Image"
+msgstr ""
+
+#: config/map.php:1117
+msgid "Different PopUp Image (Optional)"
+msgstr ""
+
+#: config/map.php:1120
+msgid "Select image from media library. If you want a different PopUp Image."
+msgstr ""
+
+#: config/map.php:1126 config/map.php:1179 config/map.php:1248
+msgid "Thumbnail Width (Optional)"
+msgstr ""
+
+#: config/map.php:1129 config/map.php:1251
+msgid ""
+"If you wish choose a width for your thumbnail. It will be automatically "
+"cropped and resized. Enter only number value."
+msgstr ""
+
+#: config/map.php:1135 config/map.php:1195 config/map.php:1698
+#: config/map.php:1854 config/map.php:1939
+msgid "Title"
+msgstr ""
+
+#: config/map.php:1137
+msgid "Title of Image."
+msgstr ""
+
+#: config/map.php:1142 config/map.php:1202 config/map.php:1264
+msgid "Gallery Name"
+msgstr ""
+
+#: config/map.php:1144 config/map.php:1266
+msgid "Title of Gallery Name."
+msgstr ""
+
+#: config/map.php:1163
+msgid "LightBox Video"
+msgstr ""
+
+#: config/map.php:1182
+msgid ""
+"If you wish choose a width for your thumbnail. It will be automatically "
+"cropped and resized."
+msgstr ""
+
+#: config/map.php:1190
+msgid "Insert Link for your video."
+msgstr ""
+
+#: config/map.php:1197
+msgid "Title of Video."
+msgstr ""
+
+#: config/map.php:1204
+msgid "Title of Gallery."
+msgstr ""
+
+#: config/map.php:1223
+msgid "LightBox Gallery"
+msgstr ""
+
+#: config/map.php:1231
+msgid "Thumbnail Image"
+msgstr ""
+
+#: config/map.php:1234
+msgid "Select thumbnail image from media library."
+msgstr ""
+
+#: config/map.php:1239
+msgid "Images for Gallery"
+msgstr ""
+
+#: config/map.php:1242
+msgid "Select images from media library."
+msgstr ""
+
+#: config/map.php:1257
+msgid "Thumbnail Title"
+msgstr ""
+
+#: config/map.php:1259
+msgid "Title of Thumbnail Image."
+msgstr ""
+
+#: config/map.php:1288
+msgid "Progress Bar"
+msgstr ""
+
+#: config/map.php:1296
+msgid "Progress Bar Field"
+msgstr ""
+
+#: config/map.php:1298 config/map.php:1444
+msgid "Enter the Progress Bar Field title here."
+msgstr ""
+
+#: config/map.php:1304
+msgid "Progress in %"
+msgstr ""
+
+#: config/map.php:1306 config/map.php:1380
+msgid "Enter a number between 0 and 100."
+msgstr ""
+
+#: config/map.php:1312
+msgid "Bar color"
+msgstr ""
+
+#: config/map.php:1315
+msgid "Choose a color for your progress bar here."
+msgstr ""
+
+#: config/map.php:1321
+msgid "Bar Custom Color"
+msgstr ""
+
+#: config/map.php:1323
+msgid "Select custom background color for bar."
+msgstr ""
+
+#: config/map.php:1329 config/map.php:1338 config/map.php:1477
+#: config/map.php:1486 config/map.php:1594 config/map.php:1627
+#: config/map.php:1689 config/map.php:2534 config/map.php:2543
+msgid "Icon"
+msgstr ""
+
+#: config/map.php:1331 config/map.php:1479 config/map.php:2536
+msgid "No Icon"
+msgstr ""
+
+#: config/map.php:1331 config/map.php:1479 config/map.php:2536
+msgid "Yes, Display Icon"
+msgstr ""
+
+#: config/map.php:1332 config/map.php:2537
+msgid "Should an icon be displayed at the left side of the progress bar."
+msgstr ""
+
+#: config/map.php:1362
+msgid "Circular Bar"
+msgstr ""
+
+#: config/map.php:1370
+msgid "Circular Progress Bar Field"
+msgstr ""
+
+#: config/map.php:1372
+msgid "Enter the Circular Progress Bar Field title here."
+msgstr ""
+
+#: config/map.php:1378
+msgid "Circular Progress in %"
+msgstr ""
+
+#: config/map.php:1386
+msgid "Circular Bar Color"
+msgstr ""
+
+#: config/map.php:1389
+msgid "Select custom color for circular bar."
+msgstr ""
+
+#: config/map.php:1394
+msgid "Circular Track Color"
+msgstr ""
+
+#: config/map.php:1397
+msgid "Select custom color of the track for the bar."
+msgstr ""
+
+#: config/map.php:1402
+msgid "Circular Progress Size"
+msgstr ""
+
+#: config/map.php:1404
+msgid ""
+"Enter a number for the size of your circle progress in px. Default size is "
+"220."
+msgstr ""
+
+#: config/map.php:1410
+msgid "Line Width Circle Progress"
+msgstr ""
+
+#: config/map.php:1412
+msgid "Enter a number for the width of the bar line in px. Default size is 24."
+msgstr ""
+
+#: config/map.php:1434
+msgid "Count Number"
+msgstr ""
+
+#: config/map.php:1442
+msgid "Count Number Field"
+msgstr ""
+
+#: config/map.php:1450
+msgid "Count Number From"
+msgstr ""
+
+#: config/map.php:1453
+msgid "The number to start counting from. Default value is 0."
+msgstr ""
+
+#: config/map.php:1459
+msgid "Count Number To"
+msgstr ""
+
+#: config/map.php:1462
+msgid "The number to stop counting at. Default value is 100."
+msgstr ""
+
+#: config/map.php:1468
+msgid "Count Number Speed"
+msgstr ""
+
+#: config/map.php:1471
+msgid ""
+"The number of milliseconds it should take to finish counting. Default value "
+"is 1000."
+msgstr ""
+
+#: config/map.php:1480
+msgid "Should an icon be displayed at the top of the count number."
+msgstr ""
+
+#: config/map.php:1510
+msgid "Pricing Table"
+msgstr ""
+
+#: config/map.php:1518
+msgid "Pricing Table Title"
+msgstr ""
+
+#: config/map.php:1524
+msgid "Pricing Table Price"
+msgstr ""
+
+#: config/map.php:1530
+msgid "Pricing Table Currency Symbol"
+msgstr ""
+
+#: config/map.php:1536
+msgid "Pricing Table Interval Time"
+msgstr ""
+
+#: config/map.php:1542
+msgid "Pricing Table Button URL"
+msgstr ""
+
+#: config/map.php:1549
+msgid "Pricing Table Button Text"
+msgstr ""
+
+#: config/map.php:1556
+msgid "Pricing Table Link Target"
+msgstr ""
+
+#: config/map.php:1563
+msgid "Highlight Pricing Table?"
+msgstr ""
+
+#: config/map.php:1565 config/map.php:1794 config/map.php:1802
+#: config/map.php:2529
+msgid "Yes, please"
+msgstr ""
+
+#: config/map.php:1573
+msgid ""
+"<ul><li>5 Project</li><li>5GB Storage</li><li>12 Users</li><li>Tasks</"
+"li><li>CRM</li><li>Your Domain</li></ul>"
+msgstr ""
+
+#: config/map.php:1602
+msgid "Icon Color"
+msgstr ""
+
+#: config/map.php:1605
+msgid "Choose a color for your icon."
+msgstr ""
+
+#: config/map.php:1611
+msgid "Icon Custom Color"
+msgstr ""
+
+#: config/map.php:1613
+msgid "Select custom color for icon."
+msgstr ""
+
+#: config/map.php:1619
+msgid "Icon Size"
+msgstr ""
+
+#: config/map.php:1621
+msgid "Size Value in pixel. Enter only number value. Default value is 16."
+msgstr ""
+
+#: config/map.php:1652
+msgid "Box Icon"
+msgstr ""
+
+#: config/map.php:1660
+msgid "Icons Select"
+msgstr ""
+
+#: config/map.php:1663
+msgid "Click For Select"
+msgstr ""
+
+#: config/map.php:1664
+msgid "Boxed Version"
+msgstr ""
+
+#: config/map.php:1665
+msgid "Circle Icon"
+msgstr ""
+
+#: config/map.php:1666
+msgid "Icon Only"
+msgstr ""
+
+#: config/map.php:1667
+msgid "Standard Icon with Title"
+msgstr ""
+
+#: config/map.php:1670
+msgid "Select Your Favorite Box Icons Style."
+msgstr ""
+
+#: config/map.php:1675
+msgid "Icon Position"
+msgstr ""
+
+#: config/map.php:1679
+msgid "Top"
+msgstr ""
+
+#: config/map.php:1682
+msgid "Should the icon be positioned at the left, right or at the top?"
+msgstr ""
+
+#: config/map.php:1700
+msgid "Add an Box Icon title here."
+msgstr ""
+
+#: config/map.php:1710
+msgid "Insert Your Text."
+msgstr ""
+
+#: config/map.php:1731 config/map.php:1747
+msgid "Sidebar"
+msgstr ""
+
+#: config/map.php:1740 config/map.php:2676
+msgid "Widget title"
+msgstr ""
+
+#: config/map.php:1742 config/map.php:2678
+msgid "What text use as a widget title. Leave blank if no title is needed."
+msgstr ""
+
+#: config/map.php:1749
+msgid "Select which widget area output."
+msgstr ""
+
+#: config/map.php:1766
+msgid "Portfolio Grid"
+msgstr ""
+
+#: config/map.php:1774
+msgid "Layout Mode"
+msgstr ""
+
+#: config/map.php:1776
+msgid "Grid"
+msgstr ""
+
+#: config/map.php:1776
+msgid "Masonry"
+msgstr ""
+
+#: config/map.php:1778
+msgid "Select Portfolio Layout Mode"
+msgstr ""
+
+#: config/map.php:1783 config/map.php:1893 config/map.php:1978
+msgid "Columns"
+msgstr ""
+
+#: config/map.php:1785 config/map.php:1895 config/map.php:1980
+msgid "2 Columns"
+msgstr ""
+
+#: config/map.php:1785 config/map.php:1895 config/map.php:1980
+msgid "3 Columns"
+msgstr ""
+
+#: config/map.php:1785 config/map.php:1895 config/map.php:1980
+msgid "4 Columns"
+msgstr ""
+
+#: config/map.php:1785
+msgid "5 Columns (Only Wall Effect Enabled)"
+msgstr ""
+
+#: config/map.php:1785
+msgid "6 Columns (Only Wall Effect Enabled)"
+msgstr ""
+
+#: config/map.php:1787 config/map.php:1897 config/map.php:1982
+msgid "How many columns should be displayed?"
+msgstr ""
+
+#: config/map.php:1792
+msgid "Enable Wall Effect?"
+msgstr ""
+
+#: config/map.php:1795
+msgid "Enable or Disable Portfolio Wall Effect!"
+msgstr ""
+
+#: config/map.php:1800
+msgid "Remove Link to Single Portfolio Item?"
+msgstr ""
+
+#: config/map.php:1803
+msgid "Enable or Disable the link for the single portfolio item page."
+msgstr ""
+
+#: config/map.php:1808
+msgid "Link Handling"
+msgstr ""
+
+#: config/map.php:1810
+msgid "Open the entry on a new page"
+msgstr ""
+
+#: config/map.php:1810
+msgid "Display the big image/video in a Fancybox"
+msgstr ""
+
+#: config/map.php:1812
+msgid "When clicking on an item:"
+msgstr ""
+
+#: config/map.php:1817 config/map.php:1902
+msgid "Sortable"
+msgstr ""
+
+#: config/map.php:1821
+msgid ""
+"Should the sorting options based on categories be displayed? Disable if you "
+"want display a custom portfolio categories."
+msgstr ""
+
+#: config/map.php:1826
+msgid "Portfolio Sortable Name"
+msgstr ""
+
+#: config/map.php:1830
+msgid "Enter sortable name. Default value is All Projects"
+msgstr ""
+
+#: config/map.php:1836 config/map.php:1987
+msgid "Post Number"
+msgstr ""
+
+#: config/map.php:1839 config/map.php:1924 config/map.php:1990
+msgid ""
+"How many post to show? Enter number or word \"All\". Default value is All."
+msgstr ""
+
+#: config/map.php:1844
+msgid "Portfolio Categories"
+msgstr ""
+
+#: config/map.php:1847
+msgid ""
+"If you want to show only certain portfolio categories, not the entire "
+"portfolio, please write the categories in this field, separated by commas. "
+"Please use the <strong>category slug</strong>, not the title."
+msgstr ""
+
+#: config/map.php:1852 config/map.php:1937
+msgid "Order by"
+msgstr ""
+
+#: config/map.php:1854 config/map.php:1939
+msgid "Date"
+msgstr ""
+
+#: config/map.php:1854 config/map.php:1939
+msgid "ID"
+msgstr ""
+
+#: config/map.php:1854 config/map.php:1939
+msgid "Author"
+msgstr ""
+
+#: config/map.php:1854 config/map.php:1939
+msgid "Modified"
+msgstr ""
+
+#: config/map.php:1854 config/map.php:1939
+msgid "Random"
+msgstr ""
+
+#: config/map.php:1854 config/map.php:1939
+msgid "Comment count"
+msgstr ""
+
+#: config/map.php:1854 config/map.php:1939
+msgid "Menu order"
+msgstr ""
+
+#: config/map.php:1856 config/map.php:1941
+#, php-format
+msgid "Select how to sort retrieved posts. More at %s."
+msgstr ""
+
+#: config/map.php:1861 config/map.php:1946
+msgid "Order way"
+msgstr ""
+
+#: config/map.php:1863 config/map.php:1948
+msgid "Descending"
+msgstr ""
+
+#: config/map.php:1863 config/map.php:1948
+msgid "Ascending"
+msgstr ""
+
+#: config/map.php:1865 config/map.php:1950
+#, php-format
+msgid "Designates the ascending or descending order. More at %s."
+msgstr ""
+
+#: config/map.php:1885
+msgid "Team Grid"
+msgstr ""
+
+#: config/map.php:1906
+msgid ""
+"Should the sorting options based on categories be displayed? Disable if you "
+"want display a custom team categories."
+msgstr ""
+
+#: config/map.php:1911
+msgid "Team Sortable Name"
+msgstr ""
+
+#: config/map.php:1915
+msgid "Enter sortable name. Default value is All Discipline"
+msgstr ""
+
+#: config/map.php:1921
+msgid "Team Number"
+msgstr ""
+
+#: config/map.php:1929
+msgid "Team Categories"
+msgstr ""
+
+#: config/map.php:1932
+msgid ""
+"If you want to show only certain team categories, not the entire team, "
+"please write the categories in this field, separated by commas. Please use "
+"the <strong>category slug</strong>, not the title."
+msgstr ""
+
+#: config/map.php:1970
+msgid "Latest Posts"
+msgstr ""
+
+#: config/map.php:1995
+msgid "Categories"
+msgstr ""
+
+#: config/map.php:1998
+msgid ""
+"If you want to show only certain posts categories, not the entire blog, "
+"please write the categories in this field, separated by commas. Please use "
+"the <strong>category slug</strong>, not the title."
+msgstr ""
+
+#: config/map.php:2018
+msgid "Video"
+msgstr ""
+
+#: config/map.php:2027
+msgid "Video Embed / Video Self Hosted"
+msgstr ""
+
+#: config/map.php:2029
+msgid ""
+"Click on the <strong>AZ Shortcode Button</strong> and select <strong>Video "
+"Embed or Video Self Hosted Shortcode</strong>.\n"
+"\t\t  \t<br/><br/>A list of all supported Video Services can be found on <a "
+"href='http://codex.wordpress.org/"
+"Embeds#Okay.2C_So_What_Sites_Can_I_Embed_From.3F' target='_blank'>WordPress."
+"org</a><br/>\n"
+"\t\t  \t<br/>Working examples, in case you want to use an external service "
+"(Video Embed Shortcode):\n"
+"\t\t  \t<br/><strong>https://vimeo.com/charlex/shapeshifter</strong>\n"
+"\t\t  \t<br/><strong>http://www.youtube.com/watch?v=CZIt20emgLY</strong>"
+msgstr ""
+
+#: config/map.php:2055
+msgid "Audio"
+msgstr ""
+
+#: config/map.php:2064
+msgid "Audio Self Hosted"
+msgstr ""
+
+#: config/map.php:2066
+msgid ""
+"Click on the <strong>AZ Shortcode Button</strong> and select <strong>Audio "
+"Self Hosted Shortcode</strong>."
+msgstr ""
+
+#: config/map.php:2088
+msgid "Big Twitter Feed"
+msgstr ""
+
+#: config/map.php:2096
+msgid "Big Twitter Feed Type"
+msgstr ""
+
+#: config/map.php:2098
+msgid "One Tweet"
+msgstr ""
+
+#: config/map.php:2098
+msgid "More Tweet"
+msgstr ""
+
+#: config/map.php:2100
+msgid "Select Your Favorite Twitter Style."
+msgstr ""
+
+#: config/map.php:2105
+msgid "Twitter Username"
+msgstr ""
+
+#: config/map.php:2108
+msgid "Insert here your twitter username only."
+msgstr ""
+
+#: config/map.php:2114
+msgid "Number Tweet"
+msgstr ""
+
+#: config/map.php:2117
+msgid "Display total tweets."
+msgstr ""
+
+#: config/map.php:2138
+msgid "Social Profile"
+msgstr ""
+
+#: config/map.php:2146
+msgid "500PX Profile"
+msgstr ""
+
+#: config/map.php:2148
+msgid "Please enter in your 500PX URL."
+msgstr ""
+
+#: config/map.php:2154
+msgid "Add This Profile"
+msgstr ""
+
+#: config/map.php:2156
+msgid "Please enter in your Add This URL."
+msgstr ""
+
+#: config/map.php:2162
+msgid "Behance Profile"
+msgstr ""
+
+#: config/map.php:2164
+msgid "Please enter in your Behance URL."
+msgstr ""
+
+#: config/map.php:2170
+msgid "Bebo Profile"
+msgstr ""
+
+#: config/map.php:2172
+msgid "Please enter in your Bebo URL."
+msgstr ""
+
+#: config/map.php:2178
+msgid "Blogger Profile"
+msgstr ""
+
+#: config/map.php:2180
+msgid "Please enter in your Blogger URL."
+msgstr ""
+
+#: config/map.php:2186
+msgid "Deviant Art Profile"
+msgstr ""
+
+#: config/map.php:2188
+msgid "Please enter in your Deviant Art URL."
+msgstr ""
+
+#: config/map.php:2194
+msgid "Digg Profile"
+msgstr ""
+
+#: config/map.php:2196
+msgid "Please enter in your Digg URL."
+msgstr ""
+
+#: config/map.php:2202
+msgid "Dribbble Profile"
+msgstr ""
+
+#: config/map.php:2204
+msgid "Please enter in your Dribbble URL."
+msgstr ""
+
+#: config/map.php:2210
+msgid "Email Profile"
+msgstr ""
+
+#: config/map.php:2212
+msgid "Please enter in your Email URL."
+msgstr ""
+
+#: config/map.php:2218
+msgid "Envato Profile"
+msgstr ""
+
+#: config/map.php:2220
+msgid "Please enter in your Envato URL."
+msgstr ""
+
+#: config/map.php:2226
+msgid "Evernote Profile"
+msgstr ""
+
+#: config/map.php:2228
+msgid "Please enter in your Evernote URL."
+msgstr ""
+
+#: config/map.php:2234
+msgid "Facebook Profile"
+msgstr ""
+
+#: config/map.php:2236
+msgid "Please enter in your Facebook URL."
+msgstr ""
+
+#: config/map.php:2242
+msgid "Flickr Profile"
+msgstr ""
+
+#: config/map.php:2244
+msgid "Please enter in your Flickr URL."
+msgstr ""
+
+#: config/map.php:2250
+msgid "Forrst Profile"
+msgstr ""
+
+#: config/map.php:2252
+msgid "Please enter in your Forrst URL."
+msgstr ""
+
+#: config/map.php:2258
+msgid "Github Profile"
+msgstr ""
+
+#: config/map.php:2260
+msgid "Please enter in your Github URL."
+msgstr ""
+
+#: config/map.php:2266
+msgid "Google Plus Profile"
+msgstr ""
+
+#: config/map.php:2268
+msgid "Please enter in your Google Plus URL."
+msgstr ""
+
+#: config/map.php:2274
+msgid "Grooveshark Profile"
+msgstr ""
+
+#: config/map.php:2276
+msgid "Please enter in your Grooveshark URL."
+msgstr ""
+
+#: config/map.php:2282
+msgid "Instagram Profile"
+msgstr ""
+
+#: config/map.php:2284
+msgid "Please enter in your Instagram URL."
+msgstr ""
+
+#: config/map.php:2290
+msgid "Last Fm Profile"
+msgstr ""
+
+#: config/map.php:2292
+msgid "Please enter in your Last Fm URL."
+msgstr ""
+
+#: config/map.php:2298
+msgid "Linked In Profile"
+msgstr ""
+
+#: config/map.php:2300
+msgid "Please enter in your Linked In URL."
+msgstr ""
+
+#: config/map.php:2306
+msgid "My Space Profile"
+msgstr ""
+
+#: config/map.php:2308
+msgid "Please enter in your My Space URL."
+msgstr ""
+
+#: config/map.php:2314
+msgid "PayPal Profile"
+msgstr ""
+
+#: config/map.php:2316
+msgid "Please enter in your PayPal URL."
+msgstr ""
+
+#: config/map.php:2322
+msgid "Photobucket Profile"
+msgstr ""
+
+#: config/map.php:2324
+msgid "Please enter in your Photobucket URL."
+msgstr ""
+
+#: config/map.php:2330
+msgid "Pinterest Profile"
+msgstr ""
+
+#: config/map.php:2332
+msgid "Please enter in your Pinterest URL."
+msgstr ""
+
+#: config/map.php:2338
+msgid "Quora Profile"
+msgstr ""
+
+#: config/map.php:2340
+msgid "Please enter in your Quora URL."
+msgstr ""
+
+#: config/map.php:2346
+msgid "Share This Profile"
+msgstr ""
+
+#: config/map.php:2348
+msgid "Please enter in your Share This URL."
+msgstr ""
+
+#: config/map.php:2354
+msgid "Skype Profile"
+msgstr ""
+
+#: config/map.php:2356
+msgid "Please enter in your Skype URL."
+msgstr ""
+
+#: config/map.php:2362
+msgid "Soundcloud Profile"
+msgstr ""
+
+#: config/map.php:2364
+msgid "Please enter in your Soundcloud URL."
+msgstr ""
+
+#: config/map.php:2370
+msgid "StumbleUpon Profile"
+msgstr ""
+
+#: config/map.php:2372
+msgid "Please enter in your StumbleUpon URL."
+msgstr ""
+
+#: config/map.php:2378
+msgid "Tumblr Profile"
+msgstr ""
+
+#: config/map.php:2380
+msgid "Please enter in your Tumblr URL."
+msgstr ""
+
+#: config/map.php:2386
+msgid "Twitter Profile"
+msgstr ""
+
+#: config/map.php:2388
+msgid "Please enter in your Twitter URL."
+msgstr ""
+
+#: config/map.php:2394
+msgid "Viddler Profile"
+msgstr ""
+
+#: config/map.php:2396
+msgid "Please enter in your Viddler URL."
+msgstr ""
+
+#: config/map.php:2402
+msgid "Vimeo Profile"
+msgstr ""
+
+#: config/map.php:2404
+msgid "Please enter in your Vimeo URL."
+msgstr ""
+
+#: config/map.php:2410
+msgid "Virb Profile"
+msgstr ""
+
+#: config/map.php:2412
+msgid "Please enter in your Virb URL."
+msgstr ""
+
+#: config/map.php:2418
+msgid "Wordpress Profile"
+msgstr ""
+
+#: config/map.php:2420
+msgid "Please enter in your Wordpress URL."
+msgstr ""
+
+#: config/map.php:2426
+msgid "Yahoo Profile"
+msgstr ""
+
+#: config/map.php:2428
+msgid "Please enter in your Yahoo URL."
+msgstr ""
+
+#: config/map.php:2434
+msgid "Yelp Profile"
+msgstr ""
+
+#: config/map.php:2436
+msgid "Please enter in your Yelp URL."
+msgstr ""
+
+#: config/map.php:2442
+msgid "You Tube Profile"
+msgstr ""
+
+#: config/map.php:2444
+msgid "Please enter in your You Tube URL."
+msgstr ""
+
+#: config/map.php:2450
+msgid "Zerply Profile"
+msgstr ""
+
+#: config/map.php:2452
+msgid "Please enter in your Zerply URL."
+msgstr ""
+
+#: config/map.php:2470
+msgid "Button"
+msgstr ""
+
+#: config/map.php:2478
+msgid "Button Label"
+msgstr ""
+
+#: config/map.php:2480
+msgid "This is the text that appears on your button."
+msgstr ""
+
+#: config/map.php:2487
+msgid "Button Link"
+msgstr ""
+
+#: config/map.php:2489
+msgid "Where should your button link to?"
+msgstr ""
+
+#: config/map.php:2495
+msgid "Button Link Target"
+msgstr ""
+
+#: config/map.php:2502
+msgid "Button Size"
+msgstr ""
+
+#: config/map.php:2504
+msgid "Mini"
+msgstr ""
+
+#: config/map.php:2504
+msgid "Small"
+msgstr ""
+
+#: config/map.php:2504
+msgid "Medium"
+msgstr ""
+
+#: config/map.php:2504
+msgid "Large"
+msgstr ""
+
+#: config/map.php:2510
+msgid "Button Color"
+msgstr ""
+
+#: config/map.php:2513
+msgid "Choose a color for your button here."
+msgstr ""
+
+#: config/map.php:2519
+msgid "Button Custom Color"
+msgstr ""
+
+#: config/map.php:2521
+msgid "Select custom color for button."
+msgstr ""
+
+#: config/map.php:2527
+msgid "Inverted Color?"
+msgstr ""
+
+#: config/map.php:2567 config/map.php:2576
+msgid "Raw HTML"
+msgstr ""
+
+#: config/map.php:2579
+msgid "Enter your HTML content."
+msgstr ""
+
+#: config/map.php:2585
+msgid "Raw JS"
+msgstr ""
+
+#: config/map.php:2594
+msgid "Raw js"
+msgstr ""
+
+#: config/map.php:2597
+msgid "Enter your JS code."
+msgstr ""
+
+#: config/map.php:2628
+msgid "Contact Form 7"
+msgstr ""
+
+#: config/map.php:2634
+msgid "Form title"
+msgstr ""
+
+#: config/map.php:2637
+msgid "What text use as form title. Leave blank if no title is needed."
+msgstr ""
+
+#: config/map.php:2642
+msgid "Select contact form"
+msgstr ""
+
+#: config/map.php:2645
+msgid "Choose previously created contact form from the drop down list."
+msgstr ""
+
+#: config/map.php:2670 config/map.php:2683
+msgid "Revolution Slider"
+msgstr ""
+
+#: config/map.php:2687
+msgid "Select your Revolution Slider."
+msgstr ""

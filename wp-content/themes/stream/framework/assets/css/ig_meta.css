@@ -1,0 +1,105 @@
+body.index-php .button.button-primary.ig-shortcode-generator {
+    display: none;
+}
+
+select[id*=_ig] {
+	padding: 8px 6px;
+	height: auto;
+	width: 200px;	
+}
+
+.ig-debug textarea {
+    width: 800px;
+    height: 400px;
+}
+
+.ig-metabox-table tr {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.ig-metabox-table tr:last-child {
+	border: none;	
+}
+
+.ig-metabox-table th {
+    width: 25%;
+}
+
+.ig-metabox-table label span {
+    display: block;
+    margin: 5px 0 0;
+    color: #999999;
+    line-height: 20px;
+}
+
+.ig-metabox-table input, .ig-metabox-table textarea {
+    float: left;
+	padding: 10px 6px;
+    margin-right: 20px;
+    width: 100%;
+    margin: 0;
+}
+
+.ig-metabox-table input[type=checkbox] {
+    width: 20px;
+}
+
+.ig-metabox-table input.file {
+    width: 85%;
+}
+
+.ig-metabox-table input.button {
+    margin-right: 0;
+    width: auto;
+}
+
+.ig-metabox-table input.radio {
+    float: none;
+    margin-right: 3px;
+    width: auto;
+}
+
+.ig-metabox-table .radio-label {
+    margin-right: 10px;
+}
+
+.ig-metabox-table img {
+    display: block;
+    width: 50%;
+}
+
+.ig-metabox-portfolio-settings .of-uploaded-image {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+
+.redux-option-image {
+    width: 100% !important;
+}
+
+.ig-metabox-table .wp-picker-input-wrap input.redux-color {
+    text-align: center;
+    width: 70px;
+    margin: 0 6px 0 0;
+    padding: 5px 5px;
+    border-radius: 1px;
+}
+
+.ig-metabox-table .wp-picker-input-wrap .button.button-small.wp-picker-clear {
+    margin-top: 2px;
+}
+
+.hided {
+    display: none;
+}
+
+.add-media-button {
+    margin-top: 8px !important;
+}
+
+#redux-main .redux-option-image,
+#redux-main .of-uploaded-image {
+    width: auto !important;
+    height: auto !important;
+}
