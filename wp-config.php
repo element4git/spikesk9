@@ -3,9 +3,9 @@
  * The base configurations of the WordPress.
  *
  * This file has the following configurations: MySQL settings, Table Prefix,
- * Secret Keys, and ABSPATH. You can find more information by visiting
- * {@link http://codex.wordpress.org/Editing_wp-config.php Editing wp-config.php}
- * Codex page. You can get the MySQL settings from your web host.
+ * Secret Keys, WordPress Language, and ABSPATH. You can find more information
+ * by visiting {@link http://codex.wordpress.org/Editing_wp-config.php Editing
+ * wp-config.php} Codex page. You can get the MySQL settings from your web host.
  *
  * This file is used by the wp-config.php creation script during the
  * installation. You don't have to use the web site, you can just copy this file
@@ -16,24 +16,22 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'spikes_wordpress');
+define('DB_NAME', 'bitnami_wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'spikesuser');
+define('DB_USER', 'bn_wordpress');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'd49p2y3Yp6Q365zE');
+define('DB_PASSWORD', '0bf3db7677');
 
 /** MySQL hostname */
-define('DB_HOST', '127.0.0.1');
+define('DB_HOST', 'localhost:3306');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-
-define('FS_METHOD','direct');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -44,14 +42,14 @@ define('FS_METHOD','direct');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '[*vcPrl<|m&mdkE{[xRdHu7Y~3|^=7KpPT>VOARXFB4<dl7`dUNuT>b`scbwN|?^');
-define('SECURE_AUTH_KEY',  'swLA,F]j^6Fkjf/A1z<n.AucO[+OX{,LM#r?RW{]vBq&/}/7PfZjrx}|#?bfwzUV');
-define('LOGGED_IN_KEY',    'HGDY+@Tm^3tR8(d. n<6g`&D{-D#@4rJs+sj#FD7-Kk(7)(>cXCsOuA^zf#z]*L`');
-define('NONCE_KEY',        'vg(ouzjyeQ(ah94yv^O,MPS_Q|>qnKxiJHD7S+Pr}/DzBya(WT`!Co!;a}8W@]2}');
-define('AUTH_SALT',        'CsQdb@X7rgz,VZEFh+=h/Bf/-f|`%@C.dmHq&/4MU$$K/6shX_y{@qi-yl2ZZ64!');
-define('SECURE_AUTH_SALT', 'T`X$&}Ezlm}e+e.$QU1qKCpaBb9,!/n0V^|I&.5_KCasZ|1m?:?:|9f2t:~-f]LH');
-define('LOGGED_IN_SALT',   'Pg{74vM#tG2WB[}D3#Nb>HSmVU(m7i$ww+q{I[R%Ld@VqRL.+mbwYmkc:Xlz:u1U');
-define('NONCE_SALT',       '*>/j!n})S`b_/b^*0!RNu;}2;uJ_bfDU;jN}[Sh3(|2gTf#wcrR^3&k)4x@yB4qb');
+define('AUTH_KEY', '9a25f25e27332aa5e8a16708e474a92232172f9f06dc084fc81f733ef5159d68');
+define('SECURE_AUTH_KEY', '46cbff228acc8598ba5f35028de09f1a13a8434d62b796b19486785cfa4b5f1b');
+define('LOGGED_IN_KEY', 'f1f2fd2cfd0be415a9ef8c6eba43d112940769b981d9da9735c011d5d722cd19');
+define('NONCE_KEY', '55721ae46dcc403b18ba65ba152c3da52497174c823934c9be6c5fce0277ffab');
+define('AUTH_SALT', '40c36bde4c920f789852254e5e24dd351827019b1529b1c55a0b5f92839181f8');
+define('SECURE_AUTH_SALT', '6bdc222e8d3edf5d80b5c01bda9fe47d119ebdd51102fa54e40dc5664bb8604e');
+define('LOGGED_IN_SALT', '0f2071bdd73981c54782b48353adebd6df2cf34c83733773e35e896f87db7d1f');
+define('NONCE_SALT', '936971554b1455483db23a437ec4c585d4baae8f605eac5d0b7caa09f93b043b');
 
 /**#@-*/
 
@@ -73,10 +71,31 @@ $table_prefix  = 'wp_';
 define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
+/**
+ * The WP_SITEURL and WP_HOME options are configured to access from any hostname or IP address.
+ * If you want to access only from an specific domain, you can modify them. For example:
+ *  define('WP_HOME','http://example.com');
+ *  define('WP_SITEURL','http://example.com');
+ *
+*/
+
+define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/');
+define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/');
+
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+        define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+define('WP_TEMP_DIR', '/opt/bitnami/apps/wordpress/tmp');
+
+
+define('FS_METHOD', 'ftpext');
+define('FTP_BASE', '/opt/bitnami/apps/wordpress/htdocs/');
+define('FTP_USER', 'bitnamiftp');
+define('FTP_PASS', 'aZobGP2a9NU7yBjOCLy3WVEC5CQK3ogvEn0e3CNnweA8C0ygeO');
+define('FTP_HOST', '127.0.0.1');
+define('FTP_SSL', false);
