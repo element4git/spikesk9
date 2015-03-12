@@ -43,4 +43,8 @@
 
 .inline .single-image {
     display: inline-block;
+    margin-right:10px;
 }
+.inline .single-image:last-child{
+	margin-right:0;
+};
