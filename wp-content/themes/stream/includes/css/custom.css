@@ -44,6 +44,7 @@
 .inline .single-image {
     display: inline-block;
     margin-right:10px;
+    margin-bottom:10px;
 }
 .inline .single-image:last-child{
 	margin-right:0;
