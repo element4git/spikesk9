@@ -40,3 +40,7 @@
 .modal-body strong{
 	color:#b10209;
 }
+
+.inline .single-image {
+    display: inline-block;
+}
