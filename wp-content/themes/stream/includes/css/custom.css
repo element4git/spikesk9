@@ -49,3 +49,7 @@
 .inline .single-image:last-child{
 	margin-right:0;
 };
+
+#mega_main_menu .nav_logo > .logo_link > img{
+	max-height: 200% !important;
+}
