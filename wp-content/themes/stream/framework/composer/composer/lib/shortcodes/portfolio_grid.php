@@ -162,7 +162,9 @@ class WPBakeryShortCode_IG_Portfolio_Grid extends WPBakeryShortCode {
 		}
 	    
 		$post_id = $my_query->post->ID;
-		$post_content = $my_query->post->post_content;
+		$post_title = get_the_title();
+		$post_content = get_the_content();
+		$post_content = wpautop( $post_content, true/false );
 
 		$img_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full' );
 		$img_thumb = wp_get_attachment_image_src( get_post_thumbnail_id(), 'portfolio-thumb' );
@@ -227,18 +229,9 @@ class WPBakeryShortCode_IG_Portfolio_Grid extends WPBakeryShortCode {
 							</div>';
 							
 			} else {
-				$output .= '
-					<div class="fancy_content" id="dog_'.$post_id.'">
-						<div class="col-md-8">
-							'.$post_content.'
-						</div>
-						<div class="col-md-4">
-							<img src="'.$img_url[0].'"  />
-						</div>
-					</div>
-				';
+				
 				$output .= '<div class="hover-wrap">
-							<a class="fancybox" href="#dog_'. $post_id .'" title="'. get_the_title() .'" body="this is the body fool" '. $fancy_gallery .'><span class="circle"><i class="icon-plus22"></i></span></a>';
+							<a  data-toggle="modal" data-target="#dog_'. $post_id .'"><span class="circle"><i class="icon-plus22"></i></span></a>';
 
 				if ($portfolio_layout == "masonry-portfolio") {
 					$output .= '<img src="'. $img_url[0] .'" width="'.$img_url[1].'" height="'.$img_url[2].'" alt="'. get_the_title() .'" class="img-responsive" />';
@@ -327,8 +320,28 @@ class WPBakeryShortCode_IG_Portfolio_Grid extends WPBakeryShortCode {
 	  $output .= '</ul>';
 	  $output .= '</div>';
 	  $output .= '</div>';
+	  $modal .= '
+					<div class="modal modalbox fade" id="dog_'.$post_id.'" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title" id="myModalLabel">'.$post_title.'</h4>
+					      </div>
+					      <div class="modal-body row">
+					        <div class="col-xs-6">
+					        	'.$post_content.'
+					        </div>
+					        <div class="col-xs-6">
+					        	<img src="'.$fancy_image_popup.'" width="100%"  />
+					        </div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				';
 	
-	  return $output . $this->endBlockComment('ig_portfolio_grid') . "\n";
+	  return $output . $this->endBlockComment('ig_portfolio_grid') . "\n" . $modal . "\n";
   }
 }
 

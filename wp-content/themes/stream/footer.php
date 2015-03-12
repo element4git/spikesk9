@@ -10,7 +10,6 @@
     </p>
 <!-- End Back to Top -->
 <?php } ?>
-
 <footer>
 <?php 
 global $woocommerce; 
@@ -96,5 +95,9 @@ if ($woocommerce) {
 <?php if(!empty($options['custom-html'])) echo $options['custom-html']; ?>
 <!-- Custom JS -->
 <?php if(!empty($options['custom-js'])) echo '<script type="text/javascript">' . $options['custom-js'] . '</script>'; ?>
+<div>
+<div id="modalBoxes">
+
+</div>
 </body>
 </html>

@@ -144,5 +144,4 @@
 	<?php ig_pagination(); ?>
     
 </div>
-    
 <?php get_footer(); ?>

@@ -1145,6 +1145,12 @@ $(document).ready(function(){
 
 $('.primary-side-menu').css({'right':'0px'});
 
+
+//move modal boxes for portolio pieces.
+$('.modalbox').on('show.bs.modal', function (e) {
+  $('#modalBoxes').html(this);
+})
+
 $(window).resize(function(){
 	FUNCTION_THEME.resizeMediaElements();
 
@@ -1192,3 +1198,4 @@ $(window).resize(function(){
 });
 
 });
+
