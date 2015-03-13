@@ -69,7 +69,9 @@
 	text-shadow:none !important;
 	border:solid 2px #FFF !important;
 }
-
+.center_vid {
+	display: block;
+}
 .center_vid > a{
 	margin:0 auto;
 	display: block !important;
