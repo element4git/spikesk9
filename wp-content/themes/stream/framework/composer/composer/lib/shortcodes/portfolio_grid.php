@@ -191,6 +191,27 @@ class WPBakeryShortCode_IG_Portfolio_Grid extends WPBakeryShortCode {
 			$animation_effect_class = $animation_loading_effects;
 		}
 
+		$output .='
+					<div class="modal modalbox fade" id="dog_'.$post_id.'" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					        <h4 class="modal-title" id="myModalLabel">'.$post_title.'</h4>
+					      </div>
+					      <div class="modal-body row">
+					        <div class="col-xs-6">
+					        	'.$post_content.'
+					        </div>
+					        <div class="col-xs-6">
+					        	<img src="'.$fancy_image_popup.'" width="100%"  />
+					        </div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				';
+
 		$output .= '<li class="item-project '.$portfolio_columns_count. ' ' . $list_categories .'">
 					<figure class="item-container '. $animation_loading_class .' '. $animation_effect_class .'">';
 		
@@ -320,28 +341,8 @@ class WPBakeryShortCode_IG_Portfolio_Grid extends WPBakeryShortCode {
 	  $output .= '</ul>';
 	  $output .= '</div>';
 	  $output .= '</div>';
-	  $modal .= '
-					<div class="modal modalbox fade" id="dog_'.$post_id.'" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-					  <div class="modal-dialog">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					        <h4 class="modal-title" id="myModalLabel">'.$post_title.'</h4>
-					      </div>
-					      <div class="modal-body row">
-					        <div class="col-xs-6">
-					        	'.$post_content.'
-					        </div>
-					        <div class="col-xs-6">
-					        	<img src="'.$fancy_image_popup.'" width="100%"  />
-					        </div>
-					      </div>
-					    </div>
-					  </div>
-					</div>
-				';
 	
-	  return $output . $this->endBlockComment('ig_portfolio_grid') . "\n" . $modal . "\n";
+	  return $output . $this->endBlockComment('ig_portfolio_grid') . "\n";
   }
 }
 
