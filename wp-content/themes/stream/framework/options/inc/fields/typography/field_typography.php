@@ -81,6 +81,7 @@ class ReduxFramework_typography {
         
         // Get the google array
         $this->getGoogleArray();
+
     }
 
     /**
@@ -777,6 +778,10 @@ class ReduxFramework_typography {
     function getGoogleArray() {
         global $wp_filesystem;
 
+
+
+        error_log($this->parent->args['google_api_key']);
+
         if (isset($this->parent->fonts['google']) && !empty($this->parent->fonts['google'])) {
             return;
         }
@@ -799,7 +804,6 @@ class ReduxFramework_typography {
             require_once (ABSPATH . '/wp-admin/includes/file.php');
             WP_Filesystem();
         }
-
         if (!file_exists($this->google_json)) {
             $result = wp_remote_get(apply_filters('redux-google-fonts-api-url', 'https://www.googleapis.com/webfonts/v1/webfonts?key=') . $this->parent->args['google_api_key'], array('sslverify' => false));
 
