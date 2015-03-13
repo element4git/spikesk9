@@ -48,8 +48,24 @@
 }
 .inline .single-image:last-child{
 	margin-right:0;
-};
+}
 
-#mega_main_menu .nav_logo > .logo_link > img{
-	max-height: 200% !important;
+.default-logo{
+	max-height: 160% !important;
+}
+
+.tp-button.blue, .tp-button.blue:hover{
+	background-color:#fff;
+	color:#000 !important;
+	padding:14px 22px !important;
+	box-shadow: none !important;
+	text-shadow:none !important;
+}
+.tp-button.red, .tp-button.red:hover{
+	background-color:transparent;
+	color:#FFF !important;
+	padding:12px 22px !important;
+	box-shadow:none !important;
+	text-shadow:none !important;
+	border:solid 2px #FFF !important;
 }

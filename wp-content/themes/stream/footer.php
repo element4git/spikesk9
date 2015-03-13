@@ -29,48 +29,6 @@ if ($woocommerce) {
 	ig_footer_widget(get_the_ID());
 }
 ?>
-
-<section id="copyright">
-	<div class="container">
-		<div class="row">
-
-			<?php if( !empty($options['enable-footer-social-area']) && $options['enable-footer-social-area'] == 1) { ?>
-            <div class="col-md-6">
-                <?php if( $options['footer-infinitegrids-signature-text'] == 1) { ?><p class="copyright-text">&copy; <?php _e('Copyright ', INFINITE_LANGUAGE); echo date( 'Y' ); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a> / <?php _e('Powered by', INFINITE_LANGUAGE) ?> <a href="http://wordpress.org/" target="_blank">WordPress</a></p><?php } ?>
-                <?php if(!empty($options['footer-copyright-text'])) { ?> <p class="credits"><?php echo $options['footer-copyright-text']; ?></p> <?php } ?>
-            </div>
-            
-            <div class="col-md-6">
-            <!-- Social Icons -->
-            <nav id="social-footer">
-                <ul>
-                    <?php
-                        global $socials_profiles;
-                        
-                        foreach($socials_profiles as $social_profile):
-                            if( $options[$social_profile.'-url'] )
-                            {
-                                echo '<li><a href="'.$options[$social_profile.'-url'].'" target="_blank"><i class="icon-'.$social_profile.'"></i></a></li>';
-                            }
-                        endforeach;
-                    ?>
-                </ul>
-            </nav>
-            <!-- End Social Icons -->
-            </div>
-            <?php } else { ?>
-            
-            <div class="col-md-12">
-                <?php if( $options['footer-infinitegrids-signature-text'] == 1) { ?><p class="copyright-text">&copy; <?php _e('Copyright ', INFINITE_LANGUAGE); echo date( 'Y' ); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a> / <?php _e('Powered by', INFINITE_LANGUAGE) ?> <a href="http://wordpress.org/" target="_blank">WordPress</a></p><?php } ?>
-                <?php if(!empty($options['footer-copyright-text'])) { ?><p class="credits"><?php echo $options['footer-copyright-text']; ?></p> <?php } ?>
-            </div>
-    
-            <?php } ?>
-            
-		</div>
-	</div>
-</section>
-
 </footer>
 
 </div>
