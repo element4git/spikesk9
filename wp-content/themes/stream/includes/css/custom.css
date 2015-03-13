@@ -70,8 +70,8 @@
 	border:solid 2px #FFF !important;
 }
 .center_vid{
-	display: inline !important;
-	padding-top:40px;
+	display: block !important;
+	margin-top:40px;
 }
 
 .center_vid > a{
