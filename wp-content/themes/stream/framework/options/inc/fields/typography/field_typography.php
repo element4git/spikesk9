@@ -778,7 +778,7 @@ class ReduxFramework_typography {
     function getGoogleArray() {
         global $wp_filesystem;
 
-
+        error_log('uh oh');
 
         error_log($this->parent->args['google_api_key']);
 
