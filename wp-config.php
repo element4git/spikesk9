@@ -19,10 +19,10 @@
 define('DB_NAME', 'bitnami_wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'bn_wordpress');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'mynewpassword');
+define('DB_PASSWORD', '6301f23ab8');
 
 /** MySQL hostname */
 define('DB_HOST', '127.0.0.1');
