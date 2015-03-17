@@ -778,10 +778,6 @@ class ReduxFramework_typography {
     function getGoogleArray() {
         global $wp_filesystem;
 
-        error_log('uh oh');
-
-        error_log($this->parent->args['google_api_key']);
-
         if (isset($this->parent->fonts['google']) && !empty($this->parent->fonts['google'])) {
             return;
         }
@@ -832,6 +828,10 @@ class ReduxFramework_typography {
                 $fonts = Redux_Helpers::curlRead($this->google_json);
             }
             
+        
+
+        print_r($fonts);
+
             if (isset($fonts) && !empty($fonts) && is_array($fonts) && $fonts != false) {
                 $this->parent->fonts['google'] = $fonts;
                 $this->parent->googleArray = $fonts;
@@ -866,6 +866,7 @@ class ReduxFramework_typography {
         if (!isset($this->parent->fonts['google']) || empty($this->parent->fonts['google'])) {
             return;
         }
+
 
         $gfonts = '<optgroup label="' . __('Google Webfonts', 'redux-framework') . '">';
         foreach ($this->parent->fonts['google'] as $i => $face) {
