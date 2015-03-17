@@ -821,7 +821,15 @@ class ReduxFramework_typography {
         }
 
         if (!isset($this->parent->fonts['google']) || empty($this->parent->fonts['google'])) {
-            $fonts = json_decode($wp_filesystem->get_contents($this->google_json), true);
+            
+            try{
+                $fonts = json_decode($wp_filesystem->get_contents($this->google_json), true);
+            }catch (Exception $e) {
+                echo 'Caught exception: ',  $e->getMessage(), "\n";
+            }
+
+
+
 
             // Fallback if file_get_contents won't work for wordpress. MEDIATEMPLE
             if (empty($fonts)) {
