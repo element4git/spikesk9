@@ -79,6 +79,8 @@ class ReduxFramework_typography {
             $wp_filesystem->copy(ReduxFramework::$_dir . 'inc/fields/typography/googlefonts.json', $this->font_dir . 'googlefonts.json', false);
         }
         
+        echo 'once you make it, you make it';
+
         // Get the google array
         $this->getGoogleArray();
 
@@ -829,8 +831,8 @@ class ReduxFramework_typography {
             }
             
         
-
-        print_r($fonts);
+            echo 'then you make it here';
+        //print_r($fonts);
 
             if (isset($fonts) && !empty($fonts) && is_array($fonts) && $fonts != false) {
                 $this->parent->fonts['google'] = $fonts;
