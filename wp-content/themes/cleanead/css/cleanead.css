@@ -1,0 +1,482 @@
+body {
+	 background-color: #fff;
+    color: #333;
+    font-family: 'Crimson Text', serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.625;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+a,
+a:active,
+a:focus,
+a:visited {
+	color: #2980b9;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 26px;
+}
+h3 {
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+h4 {
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+h5 {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+h6 {
+  font-size: 12px;
+  margin-bottom: 14px;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+table, th, td {
+	border: 1px solid rgba(51, 51, 51, 0.1);
+}
+th,
+td {
+	font-weight: normal;
+    text-align: left;
+    padding: 5px;
+}
+th {
+	border-width: 0 1px 1px 0;
+    font-weight: 700;
+}
+td {
+	border-width: 0 1px 1px 0;
+}
+table {
+	border-spacing: 0;
+	border-width: 1px 0 0 1px;
+	margin: 0 0 1.6em;
+	table-layout: fixed;
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+1.0 Layout
+--------------------------------------------------------------*/
+.site .header-content,
+.site .site-content,
+.site .site-info {
+	width: 920px;
+	margin: 0 auto;
+}
+.site .site-content {
+	overflow: hidden;
+}
+/*--------------------------------------------------------------
+2.0 Header
+--------------------------------------------------------------*/
+.site-header {
+	background: #fff;
+	border-bottom: 1px solid #eee;
+}
+.site-header .site-branding{
+	float: left;
+	width: 250px;
+	word-wrap: break-word; 
+	-ms-word-wrap: break-word;
+}
+.site-header .site-branding a {
+	line-height: 60px;
+	color: #333;
+	font-size: 32px;
+	text-decoration: none;
+}
+.site-header .site-branding a:hover {
+	color: #3498db;
+}
+.site-branding .site-title {
+	margin-bottom: 0;
+}
+.header-bar {
+	margin-left: 20px;
+}
+/*--------------------------------------------------------------
+2.1 Site Navigation
+--------------------------------------------------------------*/
+.site-header .main-navigation {
+	float: right;
+	width: 650px;
+	clear: none;
+}
+.main-navigation .nav-menu {
+	float: right;
+	min-height: 60px;
+}
+.main-navigation .nav-menu > li {
+	margin-left: 1px;
+}
+
+.main-navigation .nav-menu > li > a {
+	line-height: 60px;
+	padding: 0 20px;
+
+}
+.main-navigation ul ul {
+	top: 60px;
+	background: #fff;
+	padding: 10px 0;
+}
+.main-navigation ul ul li a{
+	padding: 5px 10px;
+}
+.main-navigation .nav-menu li a {
+	display: block;
+	color: #333;
+
+}
+.main-navigation .nav-menu li a:hover {
+	text-decoration: none;
+}
+.main-navigation ul ul li {
+	margin-bottom: 1px;
+}
+
+.main-navigation li:hover > a {
+	color: #2980b9;
+}
+
+.main-navigation ul ul :hover > a {
+	
+}
+
+.main-navigation ul ul a:hover {
+	
+}
+
+.main-navigation ul li:hover > ul {
+	left: auto;
+	margin-top: -2px;
+}
+.main-navigation ul ul li {
+	border-bottom: 1px dotted #eee;
+}
+.main-navigation ul ul li:last-child {
+	border-bottom: 0;
+}
+.main-navigation ul ul li:hover > ul {
+	left: 100%;
+	padding-left: 0;
+}
+
+.main-navigation .nav-menu .current_page_item > a,
+.main-navigation .nav-menu .current-menu-item > a,
+.main-navigation .nav-menu .current_page_ancestor > a {
+	color: #2980b9;
+}
+.menu-toggle-wrapper {
+	display: none;
+	text-align: center;
+	padding-bottom: 10px;
+}
+/*--------------------------------------------------------------
+3.0 Main Cotent
+--------------------------------------------------------------*/
+
+.site .content-area {
+	width: 620px;
+	float: left;
+}
+.site .content-area .site-main {
+	margin-right: 20px;
+	border-right: 1px solid #eee;
+	padding: 20px 20px 0;
+
+}
+.site .widget-area {
+	width: 300px;
+	float: right;
+	padding-top: 20px;
+}
+
+.hentry {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 1.5em;
+}
+.entry-title {
+	word-wrap: break-word; 
+	-ms-word-wrap: break-word;
+	margin-bottom: 0;
+}
+.single-post .entry-title {
+	font-size: 46px;
+	font-weight: bold;
+}
+.archive  .page-title {
+	border-bottom: 1px solid #eee;
+	margin-bottom: 20px;
+}
+
+.type-page {
+	border-bottom: 0;
+}
+.entry-title a {
+	color: #333;
+	word-wrap: break-word;
+	font-weight: 700;
+}
+.entry-meta {
+	margin-top: 5px;
+}
+.page-content, 
+.entry-content, 
+.entry-summary {
+	word-wrap: break-word;
+}
+.entry-content > ol{
+	margin: 0 0 24px 30px;
+}
+.entry-content ul {
+	margin: 0 0 24px 22px;
+	list-style: disc;
+}
+.entry-content ul  ul {
+	list-style: circle;
+}
+.entry-content ul  ul ul {
+	list-style: square;
+}
+.entry-title a:hover {
+	text-decoration: none;
+	color: #0274be;
+}
+.entry-meta .posted-on,
+.entry-meta .byline,
+.entry-footer {
+	text-transform: uppercase;
+	color: #cbcbcb;
+	font-size: 0.65em;
+}
+.entry-meta .posted-on a,
+.entry-meta .byline a,
+.entry-footer a {
+	color: #ababab;
+}
+.entry-meta .posted-on a:hover,
+.entry-meta .byline a:hover,
+.entry-footer a:hover {
+	color: #3498db;
+}
+.entry-footer .edit-link{
+	padding-left: 10px;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+	font-size: 0.9em;
+	font-style: italic;
+	color: #666;
+}
+
+.gallery-caption {
+	font-style: italic;
+	color: #666;
+	margin-bottom: 15px;
+}
+.gallery-item .gallery-icon{
+	padding: 5px;
+}
+.sticky {
+	background-color: #f9f9f9;
+	padding: 10px;
+}
+/**
+ * Media Audio
+ */
+.mejs-container button {
+  background: #333; 
+}
+
+.mejs-controls .mejs-button button {
+  -moz-box-shadow: 0 0 0 #333;
+  -webkit-box-shadow: 0 0 0 #333;
+  box-shadow: 0 0 0 #333; 
+}
+/**
+* Format chat
+*/
+.format-chat .entry-content {
+	background: #f2f2f2;
+	color: #0d0d0d;
+	font-family: Consolas, "Courier New", Courier, monospace;
+	padding: 1.6875em;
+}
+
+/**
+ * Widget Area
+ */
+.widget-title {
+	font-size: 20px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eee;
+	font-weight: bold;
+}
+.widget > ul {
+	list-style: none;
+	margin: 0 0 20px 0;
+}
+.widget > ul > li {
+	border-bottom: 1px dotted #eee;
+	word-wrap: break-word;
+	padding: 3px 0;
+}
+.widget > ul > li a {
+	color: #666;
+}
+.widget > ul > li a:hover {
+	text-decoration: none;
+	color: #0274be;
+}
+/**
+ * Comment
+ */
+.comments-area {
+	border-top: 1px solid #eee;
+	padding-top: 20px;
+}
+.comments-title {
+	padding-bottom: 20px;
+}
+.comment-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.comment-list ol {
+	list-style: none;
+}
+.comment-list > .comment { 
+	border-bottom: 1px solid #eee;
+	margin-bottom: 20px;
+}
+.comment-body {
+	margin-bottom: 20px;
+}
+.comment-content {
+	clear: left;
+	padding-top: 10px;
+}
+.comment-content ul {
+	margin-bottom: 0;
+
+}
+.comment-meta {
+	font-style: italic;
+	color: #cbcbcb;
+	font-size: 0.9em;
+}
+.comment-meta a {
+	color: #ababab;
+}
+.comment-meta .vcard img{
+	float: left;
+	padding-right: 10px;
+}
+
+.comment-form-author label,
+.comment-form-email label,
+.comment-form-url label {
+	float: left;
+	width: 100px;
+}
+/**
+ * Footer
+ */
+.site-footer {
+	border-top: 1px solid #eee;
+	text-align: right;
+	color: #666;
+	padding: 5px 0;
+}
+.site-footer a {
+	color: #333;
+}
+.site-footer a:hover {
+	color: #000;
+}
+.site-info {
+	overflow: hidden;
+}
+.site-info .copyright {
+	float: left;
+	width: 40%;
+	text-align: left;
+	font-size: 0.9em;
+}
+.site-info .theme-info {
+	float: right;
+	width: 60%;
+	text-align: right;
+	font-size: 0.9em;
+}
+/**
+ * Default color layout
+ * 
+ */
+/* Header */
+.site-header,
+.main-navigation ul ul {
+	background: #000;
+}
+.site-header .site-branding a,
+.main-navigation .nav-menu li a {
+	color: #ddd;
+}
+.site-header .site-branding a:hover,
+.main-navigation .nav-menu li a:hover {
+	color: #fff;
+}
+.main-navigation .nav-menu .current_page_item > a, 
+.main-navigation .nav-menu .current-menu-item > a, 
+.main-navigation .nav-menu .current_page_ancestor > a {
+	color: #fff;
+}	

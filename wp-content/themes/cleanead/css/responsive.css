@@ -1,0 +1,141 @@
+/* Medium Devices, Desktops */
+	@media only screen and (max-width : 1024px) { 
+		.menu-toggle-wrapper {
+    		display: block;
+    	}
+    	.menu-toggle-wrapper .menu-toggle {
+			display: inline-block;
+			background: url(../images/menu-icon.png) no-repeat;
+			text-indent: -9999px;
+			border: 0;
+			border-radius: 0;
+			box-shadow: none;
+    	}
+    	.header-content {
+    		width: 100%;
+    		box-sizing: border-box;
+    		padding: 0 10px;
+    	}
+		.header-content .site-branding {
+			float: none;
+			width: 100%;
+			text-align: center;
+		}
+		.site-header .main-navigation {
+			float: none;
+			width: 100%;
+		}
+		.main-navigation ul {
+			display: none;
+		}
+		.menu-toggle, .main-navigation.toggled .nav-menu {
+			display: block;
+		}
+		.main-navigation .nav-menu {
+			float: none;
+			height: auto;
+			margin: 0 0 20px 0;
+			border-top: 1px solid #eee;
+		}
+		.main-navigation .nav-menu > li {
+			float: none;
+			border-bottom: 1px dotted #eee;
+		}
+		
+		.main-navigation .nav-menu > li > a {
+			line-height: 35px;
+			padding: 0 10px;
+		}
+
+		.main-navigation ul ul {
+			margin-left: 20px;
+			box-shadow: none;
+			float: none;
+			position: relative;
+			top: 0;
+			left: 0;
+			z-index: 1;
+			display: block;
+		}
+		.main-navigation ul ul li{
+			float: none;
+			box-shadow: none;
+			position: relative;
+			top: 0;
+			left: 0;
+			z-index: 1;
+		}
+		.main-navigation ul ul li a {
+			width: 100%;
+		}
+		.main-navigation ul ul ul {
+			left: 0;
+		}
+    	.site .header-content {
+    		width: 100%;
+    	}
+	}
+    @media only screen and (max-width : 992px) {
+    	.site .header-content, 
+    	.site .site-content, 
+    	.site .site-info,
+    	.site .widget-area {
+    		width: 100%;
+    	}
+    	.site .site-content {
+    		box-sizing: border-box;
+			padding: 25px 10px;
+
+    	}
+		.site .content-area {
+			width: 100%;
+		}
+		.site .content-area .site-main {
+			margin-right: 0;
+			border-right: 0;
+			padding: 0;
+			margin-bottom: 0;
+		}
+		.widget-title {
+
+		}
+		.site-info {
+			text-align: center;
+			padding: 5px 10px 20px 10px;
+		}
+		.site-info .powerby,
+		.site-info .theme-author {
+			display: block;
+		}
+		.site-info .sep {
+			display: none;
+		}
+		.site-info .theme-info,
+		.site-info .copyright {
+			float: none;
+			width: 100%;
+			text-align: center;
+		}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		input[type="text"], 
+		input[type="email"], 
+		input[type="url"], 
+		input[type="password"], 
+		input[type="search"] {
+			width: 100%;
+			box-sizing: border-box;
+		}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+		
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
