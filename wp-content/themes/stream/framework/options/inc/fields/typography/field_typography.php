@@ -78,8 +78,6 @@ class ReduxFramework_typography {
         if (!file_exists($this->google_json)) {
             $wp_filesystem->copy(ReduxFramework::$_dir . 'inc/fields/typography/googlefonts.json', $this->font_dir . 'googlefonts.json', false);
         }
-        
-        echo 'once you make it, you make it';
 
         // Get the google array
         $this->getGoogleArray();
@@ -830,8 +828,10 @@ class ReduxFramework_typography {
                 $fonts = Redux_Helpers::curlRead($this->google_json);
             }
             
-        
-            echo 'then you make it here';
+            if(empty($fonts)){
+                 echo 'then you make it here';
+            }
+           
         //print_r($fonts);
 
             if (isset($fonts) && !empty($fonts) && is_array($fonts) && $fonts != false) {
