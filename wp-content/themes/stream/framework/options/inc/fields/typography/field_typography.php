@@ -828,16 +828,12 @@ class ReduxFramework_typography {
                 echo 'Caught exception: ',  $e->getMessage(), "\n";
             }
 
-
+            print_r($this->google_json);
 
 
             // Fallback if file_get_contents won't work for wordpress. MEDIATEMPLE
             if (empty($fonts)) {
                 $fonts = Redux_Helpers::curlRead($this->google_json);
-            }
-            
-            if(empty($fonts)){
-                 echo 'then you make it here';
             }
            
         //print_r($fonts);
