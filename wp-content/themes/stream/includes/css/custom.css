@@ -79,8 +79,20 @@
 	display: block !important;
 }
 
+.modal-dialog{
+	margin-top:6%;
+}
+
 .modal-header{
 	background-color:#b10209;
-	color:#FFF;
 	font-weight:700;
+}
+
+.modal-header h4{
+	color:#FFF;
+}
+
+.modal-header .close{
+	color:#FFF;
+	opacity:0.8;
 }
