@@ -98,8 +98,8 @@
 }
 
 .link_text{
-	font-family: 'Oswald', sans-serif;
-	font-weight:400;
+	font-family: 'Oswald', sans-serif !important;
+	font-weight:400 !important;
 }
 
 .montserratFont h1{
