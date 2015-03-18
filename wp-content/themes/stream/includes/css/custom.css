@@ -78,3 +78,9 @@
 	margin:0 auto;
 	display: block !important;
 }
+
+.modal-header{
+	background-color:#b10209;
+	color:#FFF;
+	font-weight:700;
+}
