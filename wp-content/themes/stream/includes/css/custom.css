@@ -60,6 +60,8 @@
 	padding:14px 22px !important;
 	box-shadow: none !important;
 	text-shadow:none !important;
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 700 !important;
 }
 .tp-button.red, .tp-button.red:hover{
 	background-color:transparent;
@@ -68,6 +70,8 @@
 	box-shadow:none !important;
 	text-shadow:none !important;
 	border:solid 2px #FFF !important;
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 700 !important;
 }
 .center_vid{
 	display: block !important;
