@@ -3,9 +3,9 @@
  * The base configurations of the WordPress.
  *
  * This file has the following configurations: MySQL settings, Table Prefix,
- * Secret Keys, and ABSPATH. You can find more information by visiting
- * {@link http://codex.wordpress.org/Editing_wp-config.php Editing wp-config.php}
- * Codex page. You can get the MySQL settings from your web host.
+ * Secret Keys, WordPress Language, and ABSPATH. You can find more information
+ * by visiting {@link http://codex.wordpress.org/Editing_wp-config.php Editing
+ * wp-config.php} Codex page. You can get the MySQL settings from your web host.
  *
  * This file is used by the wp-config.php creation script during the
  * installation. You don't have to use the web site, you can just copy this file
@@ -22,7 +22,7 @@ define('DB_NAME', 'bitnami_wordpress');
 define('DB_USER', 'bn_wordpress');
 
 /** MySQL database password */
-define('DB_PASSWORD', '6301f23ab8');
+define('DB_PASSWORD', '0bf3db7677');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost:3306');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', 'b32dabd44b628b2a9dd9c64ecdcd3f1e6fa3d4bee10eb79fb2c9146fe73f906e');
-define('SECURE_AUTH_KEY', 'd8da838aa469e424b13557d317ba0333ef62b5508617b689220cd6dde4dd6bbc');
-define('LOGGED_IN_KEY', 'e17c1b2b52c91e00803ebabe19aedc1d2b07305c1ecbb19097e01c2fbe498184');
-define('NONCE_KEY', 'be9b0ad495758f99b61777354d2f86c45257fdd145475761d7263dcd9676f446');
-define('AUTH_SALT', '84b1afff66d4c9638f273246c13ee65251a24b70d9c6494d6f7e7600738461bf');
-define('SECURE_AUTH_SALT', '4080b9e1da54f84e6bc9ea4d596f67cc7aeb1f513fb96b1abccb7f0af906c19d');
-define('LOGGED_IN_SALT', 'b95cc916605f37fa6248a0fea73e35c29cc33b16c298d64696835d6538d850a3');
-define('NONCE_SALT', '5c4d565a643046e908fd16bf74ffa7f0c10e3e429d6ed4099d5af8cd41652c9c');
+define('AUTH_KEY', '9a25f25e27332aa5e8a16708e474a92232172f9f06dc084fc81f733ef5159d68');
+define('SECURE_AUTH_KEY', '46cbff228acc8598ba5f35028de09f1a13a8434d62b796b19486785cfa4b5f1b');
+define('LOGGED_IN_KEY', 'f1f2fd2cfd0be415a9ef8c6eba43d112940769b981d9da9735c011d5d722cd19');
+define('NONCE_KEY', '55721ae46dcc403b18ba65ba152c3da52497174c823934c9be6c5fce0277ffab');
+define('AUTH_SALT', '40c36bde4c920f789852254e5e24dd351827019b1529b1c55a0b5f92839181f8');
+define('SECURE_AUTH_SALT', '6bdc222e8d3edf5d80b5c01bda9fe47d119ebdd51102fa54e40dc5664bb8604e');
+define('LOGGED_IN_SALT', '0f2071bdd73981c54782b48353adebd6df2cf34c83733773e35e896f87db7d1f');
+define('NONCE_SALT', '936971554b1455483db23a437ec4c585d4baae8f605eac5d0b7caa09f93b043b');
 
 /**#@-*/
 
@@ -60,6 +60,7 @@ define('NONCE_SALT', '5c4d565a643046e908fd16bf74ffa7f0c10e3e429d6ed4099d5af8cd41
  * prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix  = 'wp_';
+
 /**
  * For developers: WordPress debugging mode.
  *
@@ -78,8 +79,8 @@ define('WP_DEBUG', false);
  *
 */
 
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress');
-define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress');
+define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/');
+define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/');
 
 
 /** Absolute path to the WordPress directory. */
@@ -95,6 +96,6 @@ define('WP_TEMP_DIR', '/opt/bitnami/apps/wordpress/tmp');
 define('FS_METHOD', 'ftpext');
 define('FTP_BASE', '/opt/bitnami/apps/wordpress/htdocs/');
 define('FTP_USER', 'bitnamiftp');
-define('FTP_PASS', 'JyZoW8KoooHkQoG30gP0siDqfQEPgmmgmcpGEUF4KfU4GxEVZO');
+define('FTP_PASS', 'aZobGP2a9NU7yBjOCLy3WVEC5CQK3ogvEn0e3CNnweA8C0ygeO');
 define('FTP_HOST', '127.0.0.1');
 define('FTP_SSL', false);
