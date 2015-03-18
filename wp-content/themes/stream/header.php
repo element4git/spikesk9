@@ -62,6 +62,7 @@ if(!empty($options['favicon']['url'])) { ?>
 
 <!-- RSS & Pingbacks -->
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?> RSS Feed" href="<?php bloginfo( 'rss2_url' ); ?>" />
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Oswald|Montserrat:400,700|Fjalla+One' rel='stylesheet' type='text/css'>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php wp_head(); ?>
 
