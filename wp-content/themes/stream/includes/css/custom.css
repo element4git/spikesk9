@@ -107,11 +107,16 @@
 	font-weight: 700;
 }
 
+.montserratFont{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
 .sourceFont h2{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
 p{
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 }
