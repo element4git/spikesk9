@@ -108,8 +108,8 @@
 }
 
 .montserratFont{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 700 !important;
 }
 
 .sourceFont h2{
