@@ -154,3 +154,9 @@ p{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 }
+
+.p_italic {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style:italic;
+	font-weight: 300;
+}
