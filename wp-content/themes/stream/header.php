@@ -144,7 +144,7 @@ else {
 				else {
 					echo wp_nav_menu( array( "theme_location" => $extra_menu ) );
 				}
-        ?>	
+        ?>
         </div>
     </div>
 </header>

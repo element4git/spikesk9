@@ -160,3 +160,18 @@ p{
 	font-style:italic;
 	font-weight: 300;
 }
+
+.tp-button.blue.donate, .tp-button.blue.donate:hover{
+	font-size: 12px !important;
+	  color: #fff !important;
+	  text-shadow: none !important;
+	  background-color: red !important;
+	  text-transform: uppercase !important;
+	  padding:5px !important;
+	  position: relative;
+	  top:5px;
+}
+
+.pullsmall{
+	text-align: left !important;
+}

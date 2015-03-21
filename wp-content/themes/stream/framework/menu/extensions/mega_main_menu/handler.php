@@ -15,8 +15,10 @@
 	add_filter( 'wp_nav_menu_items', 'mmm_nav_wpml_switcher', 2020, 8 );
 	add_filter( 'wp_nav_menu_items', 'mmm_login_menu', 2030, 8 );
 	add_filter( 'wp_nav_menu_items', 'mmm_nav_search', 2040, 8 );
+	add_filter( 'wp_nav_menu_items', 'mmm_nav_social', 2060, 8 );
+	add_filter( 'wp_nav_menu_items', 'mmm_nav_donate', 2070, 8 );
 	add_filter( 'wp_nav_menu_items', 'mmm_nav_side_menu', 2050, 8 );
-    add_filter( 'wp_nav_menu_args', 'mmm_set_walkers', 3000000, 8 ); 
+    add_filter( 'wp_nav_menu_args', 'mmm_set_walkers', 3000000, 8 );
 
     if ( function_exists( 'theme_get_menu' ) && function_exists( 'theme_get_list_menu' ) ) {
         $mega_menu_locations = $mega_main_menu->get_option( 'mega_menu_locations' );
@@ -278,6 +280,54 @@
 				$searchform .= '</a><!-- class="item_link" -->'; 
 				$searchform .= '</li><!-- class="nav_search_box" -->';
 				$items = $items . $searchform;
+			}
+		}
+		return $items;
+	}
+
+	function mmm_nav_social( $items, $args ) {
+		global $mega_main_menu;
+		$options = get_option('infinite_options');
+		$args = (object) $args;
+		if( isset( $args->theme_location ) ) {
+	        $args->theme_location = str_replace( ' ', '-', $args->theme_location );
+			if( $args->theme_location != 'side_menu' ) {
+				$socialnav = '';
+				$socialnav .= '<li class="menu-item pullsmall">';
+				$socialnav .= '<a class="item_link menu_item_without_text ">'; 
+				$socialnav .= '<img src="'.get_template_directory_uri().'/includes/img/Facebook_icon.png" />'; 
+				$socialnav .= '</a><!-- class="item_link" -->'; 
+				$socialnav .= '</li><!-- class="nav_search_box" -->';
+				$socialnav .= '<li class="menu-item pullsmall">';
+				$socialnav .= '<a class="item_link menu_item_without_text ">';
+				$socialnav .= '<img src="'.get_template_directory_uri().'/includes/img/Twitter_icon.png" />'; 
+				$socialnav .= '</a><!-- class="item_link" -->'; 
+				$socialnav .= '</li><!-- class="nav_search_box" -->';
+				$socialnav .= '<li class="menu-item pullsmall">';
+				$socialnav .= '<a class="item_link menu_item_without_text ">';
+				$socialnav .= '<img src="'.get_template_directory_uri().'/includes/img/Instagram_icon.png" />'; 
+				$socialnav .= '</a><!-- class="item_link" -->'; 
+				$socialnav .= '</li><!-- class="nav_search_box" -->';
+				$items = $items . $socialnav;
+			}
+		}
+		return $items;
+	}
+
+	function mmm_nav_donate( $items, $args ) {
+		global $mega_main_menu;
+		$options = get_option('infinite_options');
+		$args = (object) $args;
+		if( isset( $args->theme_location ) ) {
+	        $args->theme_location = str_replace( ' ', '-', $args->theme_location );
+			if( $args->theme_location != 'side_menu' ) {
+				$donatenav = '';
+				$donatenav .= '<li class="menu-item pullsmall">';
+				$donatenav .= '<a class="tp-button  blue small tp-button blue small donate">'; 
+				$donatenav .= 'donate now'; 
+				$donatenav .= '</a><!-- class="item_link" -->'; 
+				$donatenav .= '</li><!-- class="nav_search_box" -->';
+				$items = $items . $donatenav;
 			}
 		}
 		return $items;
