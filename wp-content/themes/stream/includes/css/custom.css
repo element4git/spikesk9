@@ -10,7 +10,7 @@
 	display:none;
 }
 .darkbg{
-	background-color:#2d2d2d;
+	background-color:#131313;
 	color:#fff;
 }
 .darkbg h1{
@@ -20,6 +20,8 @@
 .darkbg h2{
 	color:#9f9e9e;
 	font-size:18px;
+ 	font-weight:600;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .stars h1:before{
@@ -75,7 +77,9 @@
 }
 .center_vid{
 	display: block !important;
+	margin-left:40px;
 	margin-top:40px;
+	border:solid 8px #FFF
 }
 
 .center_vid > a{
@@ -89,11 +93,13 @@
 
 .modal-header{
 	background-color:#b10209;
+	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 }
 
 .modal-header h4{
 	color:#FFF;
+	font-weight:700;
 }
 
 .modal-header .close{
@@ -116,15 +122,33 @@
 	font-weight: 700 !important;
 }
 
+.montserratFont h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 28px;
+}
+
 .sourceFont h2{
 	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 25px;
 }
 
 blockquote p{
 	font-style:italic;
 	font-weight:600;
 	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 28px;
+	line-height: 38px;
+	margin-left: 85px;
+	margin-right: 85px; 
 }
+
+.entry-title h2{
+	font-weight:600;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-color:#b10209;
+} 
 
 p{
 	font-family: 'Source Sans Pro', sans-serif;
