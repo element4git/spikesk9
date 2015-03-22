@@ -56,6 +56,21 @@
 	max-height: 300% !important;
 }
 
+@media(max-width:1024px) and (min-width:994px){
+	.nav_logo{
+		width:23%;
+	}
+}
+
+@media(max-width:767px){
+	.logo_link{
+		width:77%;
+	}
+	.tp-button.blue, .tp-button.blue:hover, .tp-button.red, .tp-button.red:hover{font-size:1.5em !important;}
+	.tp-button.blue, .tp-button.blue:hover{margin-right:5em !important;}
+	.tp-button.red, .tp-button.red:hover{margin-left:5em !important;}
+}
+
 .tp-button.blue, .tp-button.blue:hover{
 	background-color:#fff;
 	color:#000 !important;
@@ -74,7 +89,9 @@
 	border:solid 2px #FFF !important;
 	font-family: 'Montserrat', sans-serif !important;
 	font-weight: 700 !important;
+	
 }
+
 .center_vid{
 	display: block !important;
 	margin-left:40px;
@@ -170,6 +187,7 @@ p{
 	  padding:5px !important;
 	  position: relative;
 	  top:5px;
+	  margin-left:10px;
 }
 
 .pullsmall{

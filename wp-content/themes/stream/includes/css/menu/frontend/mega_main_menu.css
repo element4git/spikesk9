@@ -1965,7 +1965,7 @@ header.header-menu-overlap #mega_main_menu .nav_logo > .logo_link > .alternative
 		display: block;
 	}
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 	#mega_main_menu > .menu_holder > .menu_inner > ul > li > .item_link:after
 	{
 		font-family: 'infinitefont';
