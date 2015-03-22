@@ -29,6 +29,7 @@ if ($woocommerce) {
 	ig_footer_widget(get_the_ID());
 }
 ?>
+For more information or permission to use any photos, contact <a href="mailto:james@spikesk9fund.org">james@spikesk9fund.org</a>
 </footer>
 
 </div>

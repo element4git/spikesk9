@@ -80,7 +80,7 @@
 		
 		else { 
 			
-			if ( $logo_color == "0" || $logo_color == "" ) { $logo = $logo_src; $logo_control_show = 'logo-black'; }
+			if ( $logo_color == "0" || $logo_color == "" ) { $logo = $logo_src_alt; $logo_control_show = 'logo-black'; }
 			else { $logo = $logo_src_alt; $logo_control_show = 'logo-white'; }
 			
 			if ( $logo_color_sticky_menu == "0" || $logo_color_sticky_menu == "" ) { $logo_sticky = ''; $logo_sticky_control_show = 'logo-control-show'; }
@@ -293,18 +293,18 @@
 	        $args->theme_location = str_replace( ' ', '-', $args->theme_location );
 			if( $args->theme_location != 'side_menu' ) {
 				$socialnav = '';
-				$socialnav .= '<li class="menu-item pullsmall">';
-				$socialnav .= '<a class="item_link menu_item_without_text ">'; 
+				$socialnav .= '<li class="menu-item pullsmall socialnav first">';
+				$socialnav .= '<a href="https://www.facebook.com/pages/Spikes-K9-Fund/726061287469347" target="_blank" class="item_link menu_item_without_text ">'; 
 				$socialnav .= '<img src="'.get_template_directory_uri().'/includes/img/Facebook_icon.png" />'; 
 				$socialnav .= '</a><!-- class="item_link" -->'; 
 				$socialnav .= '</li><!-- class="nav_search_box" -->';
-				$socialnav .= '<li class="menu-item pullsmall">';
-				$socialnav .= '<a class="item_link menu_item_without_text ">';
+				$socialnav .= '<li class="menu-item pullsmall socialnav">';
+				$socialnav .= '<a href="https://twitter.com//Spikesk9fund" target="_blank" class="item_link menu_item_without_text ">';
 				$socialnav .= '<img src="'.get_template_directory_uri().'/includes/img/Twitter_icon.png" />'; 
 				$socialnav .= '</a><!-- class="item_link" -->'; 
 				$socialnav .= '</li><!-- class="nav_search_box" -->';
-				$socialnav .= '<li class="menu-item pullsmall">';
-				$socialnav .= '<a class="item_link menu_item_without_text ">';
+				$socialnav .= '<li class="menu-item pullsmall socialnav last">';
+				$socialnav .= '<a href="https://instagram.com/spikes_k9_fund/" target="_blank" class="item_link menu_item_without_text ">';
 				$socialnav .= '<img src="'.get_template_directory_uri().'/includes/img/Instagram_icon.png" />'; 
 				$socialnav .= '</a><!-- class="item_link" -->'; 
 				$socialnav .= '</li><!-- class="nav_search_box" -->';
@@ -323,7 +323,7 @@
 			if( $args->theme_location != 'side_menu' ) {
 				$donatenav = '';
 				$donatenav .= '<li class="menu-item pullsmall">';
-				$donatenav .= '<a class="tp-button  blue small tp-button blue small donate">'; 
+				$donatenav .= '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_flow&SESSION=6OjFSU38f-12ZeEYk7085_MxJdMDCPz6v7wlAmBQl5-hBuF1UKAAsGdrisS&dispatch=5885d80a13c0db1f8e263663d3faee8d96f000117187ac9edec8a65b311f447e" target="_blank" class="tp-button  blue small tp-button blue small donate">'; 
 				$donatenav .= 'donate now'; 
 				$donatenav .= '</a><!-- class="item_link" -->'; 
 				$donatenav .= '</li><!-- class="nav_search_box" -->';

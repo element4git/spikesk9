@@ -1,3 +1,9 @@
+<style>
+#mega_main_menu_ul{
+	padding:7px 0 !important;
+}
+img{width:auto !important;}
+</style>
 <?php if( !is_single() ) { ?>
 
 <?php /* if the post has a WP 2.9+ Thumbnail */
